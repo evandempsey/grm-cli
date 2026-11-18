@@ -4,8 +4,10 @@
 
 It makes an account of its own on that GRM (sign-up must be open, as it is on a test stack), a workspace, a brand and
 a token, then runs grm as a person would: sign in by token, add the video and wait for review, list and show its clips,
-approve one, export and download the files, and read its jobs and transcript. Every step checks what grm printed and
-the exit code it ended with. GRM's own CI runs it against GRM's test stack, so a change there can't break grm quietly.
+approve one, export and download the files, and read its jobs and transcript; then change the kit and clips by
+path, take and put back a snapshot, rewrite a text, draw stills, thumbnails and a mix, and apply a plan. Every step
+checks what grm printed and the exit code it ended with. GRM's own CI runs it against GRM's test stack, so a change
+there can't break grm quietly.
 """
 
 from __future__ import annotations
@@ -107,6 +109,56 @@ def main() -> int:
     grm("job", jobs[0]["id"])
     assert "-->" in grm("transcript", vid, "--srt")
     assert json.loads(grm("api", "GET", "/api/meta"))["api"] >= 1
+
+    # 0.2: the kit, a clip's settings, every clip at once, snapshots, a rewrite, looks and a plan.
+    api = json.loads(grm("api", "GET", "/api/meta"))["api"]
+    code = brand["code"]
+    snap = json.loads(grm("snapshot", code, "before the smoke", "--video", vid, "--json"))
+    grm("kit", "set", code, "filter.id=instant", "writing.cta=Follow")
+    assert json.loads(grm("kit", "get", code, "--path", "filter.id", "--json")) == "instant"
+    assert "filter.id" in grm("kit", "history", code)
+    other = clips[-1]["id"][:8]
+    grm("clip", "set", other, "--video", vid, "hook=Smoke hook", "thumb.t=1.5")
+    assert json.loads(grm("clip", "show", other, "--json"))["spec"]["hook"] == "Smoke hook"
+    grm("clip", "unset", other, "thumb")
+    assert "hook" in grm("clip", "history", other)
+    assert "clips changed" in grm("bulk", vid, "set", "captions.preset=bold")
+    assert "Smoke hook" in grm("snapshot", "diff", snap["id"][:8])
+    grm("snapshot", "restore", snap["id"][:8])
+    shown = json.loads(grm("clip", "show", other, "--json"))
+    assert shown["spec"]["hook"] != "Smoke hook", shown["spec"]
+    assert (shown["spec"].get("captions") or {}).get("preset") != "bold", shown["spec"]
+    assert json.loads(grm("kit", "get", code, "--path", "filter.id", "--json")) != "instant"
+    assert grm("clip", "rewrite", other, "--field", "tiktok", "shorter").strip()
+    with tempfile.TemporaryDirectory() as tmp:
+        kit_file = Path(tmp) / "kit.yaml"
+        kit_file.write_text(grm("kit", "get", code))
+        assert "matches" in grm("kit", "diff", code, str(kit_file))  # its own settings, read back
+        looks = json.loads(grm("look", other, "--at", "1", "--width", "360", "--out", tmp, "--json"))["files"]
+        looks.append(
+            json.loads(grm("look", other, "--try", "captions.preset=bold,subtitle", "--out", tmp, "--json"))["files"][0]
+        )
+        looks.append(json.loads(grm("thumbs", vid, "--width", "600", "--out", tmp, "--json"))["file"])
+        for f in looks:
+            assert Path(f).read_bytes()[:8] == b"\x89PNG\r\n\x1a\n", f
+        sound = json.loads(grm("listen", other, "--out", tmp, "--json"))
+        assert Path(sound["file"]).stat().st_size > 0 and isinstance(sound["lufs"], float), sound
+        print(f"    {len(looks)} pictures and a mix of {sound['seconds']} s")
+        if api >= 2:
+            plan = Path(tmp) / "plan.yaml"
+            plan.write_text(
+                f"brand: {code}\nvideo: {vid}\nsnapshot: before the plan\nkit:\n  set:\n    voice.room: small\n"
+                f"clips:\n  {other}:\n    hook: Plan hook\n    music: off\n"
+            )
+            assert "Nothing was saved" in grm("apply", str(plan), "--dry-run")
+            grm("apply", str(plan))
+            shown = json.loads(grm("clip", "show", other, "--json"))
+            assert shown["spec"]["hook"] == "Plan hook" and shown["spec"]["music"]["on"] is False, shown["spec"]
+            assert "nothing to change" in grm("apply", str(plan))
+        else:
+            print(f"    grm apply skipped: this GRM speaks api {api}, and a plan needs 2")
+    grm("snapshot", "delete", snap["id"][:8], code=2)
+    grm("snapshot", "delete", snap["id"][:8], "--yes")
 
     # Wrong use, and a name that matches nothing, end with 2; a token without the scope with 4.
     grm("clips", "zzzzzzzz", code=2)

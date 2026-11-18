@@ -1,0 +1,35 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "id": "fe916cb1-e6d3-48b9-b954-46d80a248f21",
+  "kind": "stills",
+  "status": "done",
+  "progress": 1.0,
+  "detail": "Drawing the stills",
+  "subject": {
+   "video": "16cc0b11-41a2-46e7-ae9d-be927fbb5c3f",
+   "asset": "c1ff05cd-0b0d-4274-9da5-2579c7d270e4"
+  },
+  "parent": null,
+  "children": [],
+  "result": {
+   "aspect": "9:16",
+   "stills": [
+    {
+     "at": 2.0,
+     "url": "http://localhost:8140/media/.eJwFwUkOgzAMAMC_-IwbOzGWzW-yEA5EoRKqeqj4e2d-cMIG3zuYrp5UOkrzhpI4oseu2Ehy7TUrq4VxXecd-u6stTDu2hKKFcfiq6BoM8pRrEcORKT0es8DFpiwzc8Yzx9Itx2k.av2c8w.HrmkduMBgIN4Zq5fkXmpua0R8sY",
+     "frame": 60,
+     "label": null,
+     "width": 360,
+     "height": 640
+    }
+   ]
+  },
+  "error": null,
+  "attempts": 1,
+  "created_at": "2026-11-18T12:41:22.453532+00:00",
+  "started_at": "2026-11-18T12:41:22.456007+00:00",
+  "finished_at": "2026-11-18T12:41:22.504569+00:00"
+ }
+}

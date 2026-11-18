@@ -3,7 +3,7 @@
  "retry_after": null,
  "body": [
   {
-   "id": "c41d00ca-eb04-4100-b00e-936602891b81",
+   "id": "055a8d7e-21f4-449b-a9b3-940e86d1b18a",
    "name": "The Shop Floor",
    "code": "shopfloor",
    "version": 1,
@@ -143,7 +143,7 @@
    "counts": {}
   },
   {
-   "id": "03695a5e-965c-4205-bdc2-0ca5f4bf9d0c",
+   "id": "e0bcb32b-368e-47d6-ba56-8a3430ea6ea6",
    "name": "The Shop Talk",
    "code": "shoptalk",
    "version": 1,

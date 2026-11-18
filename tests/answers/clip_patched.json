@@ -1,0 +1,202 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "id": "c1ff05cd-0b0d-4274-9da5-2579c7d270e4",
+  "kind": "clip",
+  "status": "review",
+  "title": "Your wife isn't a spreadsheet",
+  "spec": {
+   "lay": {},
+   "pad": {
+    "in": 0.0,
+    "out": 0.1
+   },
+   "copy": {
+    "x": {
+     "limit": 280,
+     "variants": [
+      {
+       "text": "What did you do in that.\n\nFrom the latest video.",
+       "locked": false,
+       "unverified": []
+      },
+      {
+       "text": "One baker's rule: what did you do in that.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "tiktok": {
+     "limit": 2200,
+     "variants": [
+      {
+       "text": "What did you do in that. A bakery owner on starting again.",
+       "locked": false,
+       "unverified": []
+      },
+      {
+       "text": "What a fire taught one baker: what did you do in that.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "linkedin": {
+     "limit": 3000,
+     "variants": [
+      {
+       "text": "What did you do in that.\n\nA short clip from a conversation about rebuilding a business after a fire.",
+       "locked": false,
+       "unverified": []
+      },
+      {
+       "text": "What did you do in that. Worth two minutes of your day.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "shorts_title": {
+     "limit": 100,
+     "variants": [
+      {
+       "text": "What did you do in that",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "shorts_description": {
+     "limit": 5000,
+     "variants": [
+      {
+       "text": "What did you do in that. From the latest video.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    }
+   },
+   "hook": "Your wife isn't a spreadsheet",
+   "music": {
+    "on": true,
+    "track": {
+     "id": "sawdust",
+     "source": "library"
+    },
+    "suggested": {
+     "at": "2026-11-18T12:41:18+00:00",
+     "bpm": [
+      84,
+      108
+     ],
+     "why": "A story with a turn in it: the music carries the turn.",
+     "want": true,
+     "brief": "Warm acoustic instrumental, fingerpicked guitar playing a rising four-note figure, brushed drums joining halfway, lifting on the last line. Quietly proud. 96 BPM, no vocals.",
+     "other": "Hopeful piano instrumental, a simple major-key motif over soft strings that swell in the last ten seconds. Open, certain. 84 BPM, no vocals.",
+     "picks": [
+      {
+       "id": "sawdust",
+       "source": "library"
+      },
+      {
+       "id": "workbench",
+       "source": "library"
+      },
+      {
+       "id": "brushwork",
+       "source": "library"
+      },
+      {
+       "id": "long-game",
+       "source": "library"
+      }
+     ],
+     "prompt": 5,
+     "search": "warm acoustic guitar, quietly proud",
+     "feeling": "Opens unsure and ends certain, turning on the last line."
+    }
+   },
+   "captions": null,
+   "emphasis": [
+    82,
+    85,
+    108,
+    115
+   ],
+   "cold_open": true,
+   "copy_ready": true,
+   "thumb": {
+    "t": 3.2
+   }
+  },
+  "position": 1,
+  "version": 2,
+  "updated_at": "2026-11-18T12:41:21.291055+00:00",
+  "unverified": 0,
+  "moment": {
+   "id": "b82d6bf1-73e1-499e-8a76-a0870a2791dd",
+   "start_word": 56,
+   "end_word": 115,
+   "t0": 19.65,
+   "t1": 39.41,
+   "score": 85,
+   "scores": {
+    "payoff": 83,
+    "novelty": 76,
+    "stands_alone": 86,
+    "hook_strength": 89
+   },
+   "topic": "building business",
+   "reason": "Kept the setup and the payoff, cut what came between.",
+   "source": "detect",
+   "query": null,
+   "idea": "That number told me the business was the people and not the building",
+   "emotion": "conviction",
+   "band": "15-30",
+   "pieces": [
+    [
+     56,
+     70
+    ],
+    [
+     79,
+     115
+    ]
+   ],
+   "teaser": [
+    89,
+    102
+   ],
+   "tidy": {
+    "pace": {
+     "B": 3.163
+    },
+    "candidates": [
+     {
+      "id": "p1",
+      "t0": 30.41,
+      "t1": 30.9,
+      "why": "stand-in grade",
+      "kind": "pause",
+      "after": 88,
+      "grade": "natural"
+     },
+     {
+      "id": "p2",
+      "t0": 35.06,
+      "t1": 35.55,
+      "why": "stand-in grade",
+      "kind": "pause",
+      "after": 102,
+      "grade": "keep"
+     }
+    ]
+   },
+   "rank": 2
+  },
+  "reopened": false
+ }
+}

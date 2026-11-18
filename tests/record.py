@@ -94,6 +94,72 @@ def main() -> None:
     keep("export_job", api.get(f"/api/jobs/{ex['export']['job']}"))
     keep("exports", api.get(f"/api/videos/{video['id']}/exports"))
     keep("jobs", api.get("/api/jobs", params={"video": video["id"]}))
+
+    def done(started: dict) -> httpx.Response:
+        while (r := api.get(f"/api/jobs/{started['job']['id']}")).json()["status"] not in ("done", "failed"):
+            time.sleep(1)
+        return r
+
+    # 0.2: the kit, a clip's settings, snapshots, a rewrite, looks.
+    b = keep("brand", api.get(f"/api/brands/{brand['id']}"))
+    keep(
+        "brand_patched",
+        api.patch(
+            f"/api/brands/{brand['id']}/settings",
+            json={
+                "set": {"brand_kit.filter.id": "instant", "brand_kit.voice.room": "small", "voice.cta": "Follow"},
+                "if_version": b["version"],
+            },
+        ),
+    )
+    keep("brand_history", api.get(f"/api/brands/{brand['id']}/history"))
+    keep("brand_restored", api.post(f"/api/brands/{brand['id']}/versions/1/restore"))
+    other = ([x for x in assets if x["kind"] == "clip" and x["id"] != clip["id"]] or [clip])[0]
+    snap = keep(
+        "snapshot",
+        api.post(f"/api/brands/{brand['id']}/snapshots", json={"name": "before the look", "video_id": video["id"]}),
+    )
+    keep("snapshots", api.get(f"/api/brands/{brand['id']}/snapshots"))
+    c2 = keep("clip_other", api.get(f"/api/assets/{other['id']}"))
+    keep(
+        "clip_patched",
+        api.patch(
+            f"/api/assets/{other['id']}",
+            json={
+                "set": {"spec.hook": "Your wife isn't a spreadsheet", "spec.thumb.t": 3.2},
+                "if_version": c2["version"],
+            },
+        ),
+    )
+    keep("clip_history", api.get(f"/api/assets/{other['id']}/history"))
+    keep("bulk", api.post(f"/api/videos/{video['id']}/bulk", json={"set": {"spec.captions.preset": "bold"}}))
+    keep("snapshot_diff", api.get(f"/api/snapshots/{snap['id']}/diff"))
+    keep("snapshot_restored", api.post(f"/api/snapshots/{snap['id']}/restore", json={"only": ["clips"]}))
+    keep("clip_restored", api.post(f"/api/assets/{other['id']}/versions/1/restore"))
+    keep(
+        "bulk_clips",
+        api.post(f"/api/videos/{video['id']}/bulk", json={"clips": {other["id"]: {"set": {"spec.music.on": False}}}}),
+    )
+    r = api.post(f"/api/videos/{video['id']}/bulk", json={"clips": {str(uuid.uuid4()): {"set": {"spec.hook": "x"}}}})
+    saved["error_bulk_stranger"] = {"status": r.status_code, "body": r.json()}
+    rw = keep(
+        "rewrite_started",
+        api.post(
+            f"/api/assets/{other['id']}/rewrite",
+            json={"instruction": "make it shorter", "field": "tiktok", "variant": 0},
+        ),
+    )
+    keep("rewrite_job", done(rw))
+    keep("clip_rewritten", api.get(f"/api/assets/{other['id']}"))
+    st = keep(
+        "stills_started",
+        api.post(f"/api/assets/{other['id']}/stills", json={"aspect": "9:16", "width": 360, "at": [2], "sheet": False}),
+    )
+    keep("stills_job", done(st))
+    sh = keep("sheet_started", api.get(f"/api/videos/{video['id']}/thumbnails/sheet", params={"width": 600}))
+    keep("sheet_job", done(sh))
+    snd = keep("sound_started", api.post(f"/api/assets/{other['id']}/sound", json={"music": True}))
+    keep("sound_job", done(snd))
     # Errors, as GRM says them.
     reader = web.post("/api/tokens", json={"name": "reader", "scopes": ["read"], "days": 1}).json()["secret"]
     r = httpx.post(

@@ -3,7 +3,7 @@
  "retry_after": null,
  "body": [
   {
-   "id": "0b0a8eec-d12d-4948-9cac-696ba97dcbe0",
+   "id": "e9042208-caf6-4e89-967b-025d6fba25e9",
    "kind": "carousel",
    "status": "review",
    "title": "Lessons from rebuilding, in four slides",
@@ -19,15 +19,15 @@
     "colour": null,
     "slides": [
      {
-      "id": "5912272fc0",
+      "id": "8b1e49d025",
       "body": "",
       "type": "hook",
       "frame": null,
-      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/7aec3a8680054955a1076f4aa1717be7.jpg",
+      "image": "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/9d3c21a6e9ae48f6bcba0a36245566b8.jpg",
       "where": "",
       "figure": "",
       "images": [
-       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/7aec3a8680054955a1076f4aa1717be7.jpg"
+       "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/9d3c21a6e9ae48f6bcba0a36245566b8.jpg"
       ],
       "source": {
        "t0": 6.6,
@@ -41,7 +41,7 @@
       "background": "image"
      },
      {
-      "id": "df002ed627",
+      "id": "805dd46c15",
       "body": "",
       "type": "point",
       "frame": null,
@@ -61,15 +61,15 @@
       "background": "colour"
      },
      {
-      "id": "53ecdc1a34",
+      "id": "2b2291bb61",
       "body": "By the time I got there the ovens were gone and so was the roof.",
       "type": "point",
       "frame": null,
-      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/8c267ad2a1fc4bd780cddcc18159ad8d.jpg",
+      "image": "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/03075e268c034eabb74532df77fa430c.jpg",
       "where": "",
       "figure": "",
       "images": [
-       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/8c267ad2a1fc4bd780cddcc18159ad8d.jpg"
+       "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/03075e268c034eabb74532df77fa430c.jpg"
       ],
       "source": {
        "t0": 14.7,
@@ -83,15 +83,15 @@
       "background": "image"
      },
      {
-      "id": "acff3f7c2c",
+      "id": "44c7a887da",
       "body": "What did you do in that first week.",
       "type": "point",
       "frame": null,
-      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/be71dd3167864cb0ab280e5a4e85fb39.jpg",
+      "image": "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/5c119fb5f25343b0a546353b14f2f788.jpg",
       "where": "",
       "figure": "",
       "images": [
-       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/be71dd3167864cb0ab280e5a4e85fb39.jpg"
+       "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/5c119fb5f25343b0a546353b14f2f788.jpg"
       ],
       "source": {
        "t0": 24.6,
@@ -105,15 +105,15 @@
       "background": "image"
      },
      {
-      "id": "4884f47394",
+      "id": "47f0986951",
       "body": "",
       "type": "stat",
       "frame": null,
-      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/4cbf9697c6fb480a985f2fecd790c17f.jpg",
+      "image": "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/da9c78d04f0c41cbae48194f79f596b7.jpg",
       "where": "",
       "figure": "41 calls",
       "images": [
-       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/4cbf9697c6fb480a985f2fecd790c17f.jpg"
+       "ws/8659364f-4d9d-4312-92f6-d04acfca6168/episodes/16cc0b11-41a2-46e7-ae9d-be927fbb5c3f/pictures/da9c78d04f0c41cbae48194f79f596b7.jpg"
       ],
       "source": {
        "t0": 30.9,
@@ -127,7 +127,7 @@
       "background": "image"
      },
      {
-      "id": "496921e4a8",
+      "id": "cb9bd843fc",
       "body": "",
       "type": "quote",
       "frame": null,
@@ -147,7 +147,7 @@
       "background": "colour"
      },
      {
-      "id": "be26917c6a",
+      "id": "2d21ffce34",
       "body": "Rebuilding after the fire",
       "type": "cta",
       "frame": null,
@@ -175,7 +175,7 @@
    },
    "position": 0,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.604959+00:00",
+   "updated_at": "2026-11-18T12:41:14.111795+00:00",
    "unverified": 0,
    "lint": [
     [
@@ -270,7 +270,7 @@
    ]
   },
   {
-   "id": "379b7040-a3e0-4879-adb8-4b9938145876",
+   "id": "19be715a-9938-4a2d-b20b-29a645b320f6",
    "kind": "clip",
    "status": "review",
    "title": "We paid them in bread, which",
@@ -355,7 +355,7 @@
       "source": "library"
      },
      "suggested": {
-      "at": "2026-11-18T11:05:38+00:00",
+      "at": "2026-11-18T12:41:18+00:00",
       "bpm": [
        84,
        108
@@ -399,10 +399,10 @@
    },
    "position": 0,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:38.918522+00:00",
+   "updated_at": "2026-11-18T12:41:18.264124+00:00",
    "unverified": 0,
    "moment": {
-    "id": "1020b749-4196-479b-a78c-c1e96ec4a801",
+    "id": "04a57936-b708-4c2e-9b8c-42b3d8072da5",
     "start_word": 148,
     "end_word": 211,
     "t0": 50.85,
@@ -488,7 +488,7 @@
    ]
   },
   {
-   "id": "af50d538-95cf-4f32-ba1b-7a8398cdd25d",
+   "id": "c1ff05cd-0b0d-4274-9da5-2579c7d270e4",
    "kind": "clip",
    "status": "review",
    "title": "What did you do in that",
@@ -573,7 +573,7 @@
       "source": "library"
      },
      "suggested": {
-      "at": "2026-11-18T11:05:38+00:00",
+      "at": "2026-11-18T12:41:18+00:00",
       "bpm": [
        84,
        108
@@ -617,10 +617,10 @@
    },
    "position": 1,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:38.919136+00:00",
+   "updated_at": "2026-11-18T12:41:18.263827+00:00",
    "unverified": 0,
    "moment": {
-    "id": "61f67801-336d-42e8-8d31-e077fc7ff983",
+    "id": "b82d6bf1-73e1-499e-8a76-a0870a2791dd",
     "start_word": 56,
     "end_word": 115,
     "t0": 19.65,
@@ -701,7 +701,7 @@
    ]
   },
   {
-   "id": "0fd98c71-180a-4af1-8bd3-718ccd45d1ad",
+   "id": "c2bc7af3-585a-412f-941f-f474defd50b1",
    "kind": "clip",
    "status": "review",
    "title": "So take me back to the",
@@ -786,7 +786,7 @@
       "source": "library"
      },
      "suggested": {
-      "at": "2026-11-18T11:05:38+00:00",
+      "at": "2026-11-18T12:41:18+00:00",
       "bpm": [
        84,
        108
@@ -829,10 +829,10 @@
    },
    "position": 2,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:38.917693+00:00",
+   "updated_at": "2026-11-18T12:41:18.263362+00:00",
    "unverified": 0,
    "moment": {
-    "id": "a7f0ac74-0df2-4008-9321-fe36c1e28090",
+    "id": "6dbd2bcf-c09d-4469-ad18-d48f707d31da",
     "start_word": 5,
     "end_word": 70,
     "t0": 2.55,
@@ -926,7 +926,7 @@
    ]
   },
   {
-   "id": "8f04fb2d-9ae4-47df-a805-02d80150a1be",
+   "id": "76f78e5a-a207-419f-92e3-0a1807646233",
    "kind": "linkedin_post",
    "status": "review",
    "title": "Speaker A: “So take me back to the morning it happened.”",
@@ -955,11 +955,11 @@
    },
    "position": 0,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.292075+00:00",
+   "updated_at": "2026-11-18T12:41:13.769993+00:00",
    "unverified": 0
   },
   {
-   "id": "f9400ccf-7eaf-4a98-9fa5-6748e0fae84a",
+   "id": "854eeba3-20a1-4775-8d92-fa88d5247fd0",
    "kind": "quote",
    "status": "review",
    "title": "So take me back to the morning it happened.",
@@ -973,11 +973,11 @@
    },
    "position": 0,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.291637+00:00",
+   "updated_at": "2026-11-18T12:41:13.769256+00:00",
    "unverified": 0
   },
   {
-   "id": "3417ba73-0257-4ad2-9446-720597bffd69",
+   "id": "7fc4668f-a203-4992-a194-9428056a846e",
    "kind": "quote",
    "status": "review",
    "title": "The strange thing is that I felt calm, because there was nothing left to protect.",
@@ -991,11 +991,11 @@
    },
    "position": 1,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.294951+00:00",
+   "updated_at": "2026-11-18T12:41:13.771087+00:00",
    "unverified": 0
   },
   {
-   "id": "af3c166f-cdd4-4548-ba27-36564767c1c0",
+   "id": "919c6432-c9d8-4919-b198-0b07b587c55f",
    "kind": "show_notes",
    "status": "review",
    "title": "Show notes",
@@ -1028,11 +1028,11 @@
    },
    "position": 0,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.292392+00:00",
+   "updated_at": "2026-11-18T12:41:13.770655+00:00",
    "unverified": 0
   },
   {
-   "id": "fa9009ef-7c5e-43fd-a00e-e72d77cbb260",
+   "id": "deeca256-3ed5-4581-a2a8-2ffdc5427e30",
    "kind": "x_post",
    "status": "review",
    "title": "Speaker A: “So take me back to the morning it happened.”",
@@ -1061,11 +1061,11 @@
    },
    "position": 0,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.291732+00:00",
+   "updated_at": "2026-11-18T12:41:13.768094+00:00",
    "unverified": 0
   },
   {
-   "id": "36f3335c-933c-4776-a490-43d58aab5f30",
+   "id": "187b322f-e870-4e93-89ff-af147d19d730",
    "kind": "x_post",
    "status": "review",
    "title": "Speaker A: “Most owners would have gone straight to the insurer.”",
@@ -1094,11 +1094,11 @@
    },
    "position": 1,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.294364+00:00",
+   "updated_at": "2026-11-18T12:41:13.770813+00:00",
    "unverified": 0
   },
   {
-   "id": "34325e9f-3de4-4933-bad7-9fd8d71f2369",
+   "id": "6c91d499-207a-4916-9900-9cf3e85d18a2",
    "kind": "x_thread",
    "status": "review",
    "title": "1/ So take me back to the morning it happened.",
@@ -1140,7 +1140,7 @@
    },
    "position": 2,
    "version": 1,
-   "updated_at": "2026-11-18T11:05:34.296282+00:00",
+   "updated_at": "2026-11-18T12:41:13.773235+00:00",
    "unverified": 0
   }
  ]

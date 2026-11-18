@@ -10,8 +10,8 @@ import argparse
 import json
 import sys
 
-from grm_cli import __version__, commands
-from grm_cli.errors import USAGE, GrmError
+from grm_cli import __version__, commands, edit, kit, looks, plans, snapshots
+from grm_cli.errors import USAGE, GrmError, usage
 from grm_cli.output import Out
 
 WAIT_FOR = ["uploaded", "processing", "review", "approved", "exported"]
@@ -88,11 +88,128 @@ def parser() -> argparse.ArgumentParser:
     c = cmd(sub, "clips", commands.clips, "a video's clips: id, status, length, title, hook")
     c.add_argument("video", help="its id, or its first 8 characters")
     c.add_argument("--status", help="only these: review, approved, rejected")
-    clip = sub.add_parser("clip", help="one clip").add_subparsers(dest="action", metavar="<action>")
+
+    def which_clip(c: argparse.ArgumentParser, then: tuple[str, str, str] | None = None) -> None:
+        """The clip by its id (first word), or by --match. With `then` (dest, metavar, kind), more words follow it:
+        argparse can't split an optional word from those that follow once an option comes between them, so grm
+        does (see _split_clip)."""
+        c.add_argument("--match", help="or words of its title (then no id comes first)")
+        c.add_argument("--video", help="look in this video only")
+        if then is None:
+            c.add_argument("clip", nargs="?", help="its id, or its first 8 characters")
+            return
+        dest, metavar, _ = then
+        c.add_argument(
+            "words",
+            nargs="+",
+            metavar=f"clip {metavar}",
+            help=f"the clip's id (or its first 8 characters), then {metavar}; with --match, only {metavar}",
+        )
+        c.set_defaults(then=then)
+
+    clip = sub.add_parser("clip", help="one clip: show, change, rewrite, history").add_subparsers(
+        dest="action", metavar="<action>"
+    )
     c = cmd(clip, "show", commands.clip_show, "a clip's details and its own settings")
-    c.add_argument("clip", nargs="?", help="its id, or its first 8 characters")
-    c.add_argument("--match", help="or words of its title")
-    c.add_argument("--video", help="look in this video only")
+    which_clip(c)
+    c = cmd(clip, "set", edit.set_, 'change a clip\'s settings: hook="…" thumb.t=12.4 captions.preset=bold')
+    which_clip(c, ("settings", "path=value…", "list"))
+    c = cmd(clip, "unset", edit.unset, "put a clip's settings back to its kit's: filter captions.style")
+    which_clip(c, ("paths", "path…", "list"))
+    c = cmd(
+        clip, "rewrite", edit.rewrite, "rewrite one of a clip's texts with an instruction (a model writes it: paid)"
+    )
+    which_clip(c, ("instruction", "instruction", "text"))
+    c.add_argument("--field", choices=edit.FIELDS, default="tiktok", help="which text (default: tiktok)")
+    c.add_argument("--variant", type=int, default=0, help="which of its variants to start from (default: the first)")
+    c.add_argument("--dry-run", action="store_true", help="say what it would do, and do nothing")
+    c.add_argument("--timeout", help="give up waiting after this long (90s, 30m, 2h)")
+    c = cmd(clip, "history", edit.history, "every version of a clip")
+    which_clip(c)
+    c = cmd(clip, "restore", edit.restore, "put a clip back to one of its versions (itself a version: undoable)")
+    which_clip(c, ("version", "version", "int"))
+
+    c = cmd(sub, "bulk", edit.bulk, "the same change on every clip of a video, saved together or not at all")
+    c.add_argument("video", help="its id, or its first 8 characters")
+    c.add_argument("how", choices=["set", "unset"])
+    c.add_argument("settings", nargs="+", metavar="path=value|path")
+
+    kits = sub.add_parser("kit", help="a brand's kit: get, set, unset, diff, apply, history, restore")
+    kits = kits.add_subparsers(dest="action", metavar="<action>")
+    c = cmd(kits, "get", kit.get, "the brand's settings as they take effect, as YAML (what kit apply reads)")
+    c.add_argument("brand", help="name, handle or code")
+    c.add_argument("--path", help="only this setting, or set of settings (captions, writing.cta)")
+    c = cmd(kits, "set", kit.set_, 'change kit settings: filter.id=instant voice.room=small writing.cta="…"')
+    c.add_argument("brand", help="name, handle or code")
+    c.add_argument("settings", nargs="+", metavar="path=value")
+    c = cmd(kits, "unset", kit.unset, "put kit settings back to the defaults")
+    c.add_argument("brand", help="name, handle or code")
+    c.add_argument("paths", nargs="+", metavar="path")
+    c = cmd(kits, "diff", kit.diff, "the live kit against a kit file")
+    c.add_argument("brand", help="name, handle or code")
+    c.add_argument("file", help="a kit file: kit:, writing:, pack:, unset:")
+    c = cmd(kits, "apply", kit.apply, "make the live kit match a kit file")
+    c.add_argument("brand", help="name, handle or code")
+    c.add_argument("file", help="a kit file: kit:, writing:, pack:, unset:")
+    c.add_argument("--dry-run", action="store_true", help="say what it would change, and change nothing")
+    c = cmd(kits, "history", kit.history, "every version of the brand's settings")
+    c.add_argument("brand", help="name, handle or code")
+    c = cmd(kits, "restore", kit.restore, "put the brand's settings back to a version (itself a version: undoable)")
+    c.add_argument("brand", help="name, handle or code")
+    c.add_argument("version", type=int)
+
+    c = cmd(sub, "apply", plans.apply, "a plan file: the kit and many clips changed in one go")
+    c.add_argument("plan", help="a plan file (see grm-cli's README)")
+    c.add_argument("--dry-run", action="store_true", help="print every change and paid call, and do nothing")
+    c.add_argument("--wait", action="store_true", help="wait for music being made, and put it on its clip")
+    c.add_argument("--timeout", help="give up waiting after this long (90s, 30m, 2h)")
+
+    snap = sub.add_parser("snapshot", help="take, diff, restore or delete a snapshot")
+    snap = snap.add_subparsers(dest="action", metavar="<brand|action>")
+    c = cmd(snap, "take", snapshots.take, "keep a brand's kit and its clips' settings under a name")
+    c.add_argument("brand", help="name, handle or code")
+    c.add_argument("name", help='what it is before, e.g. "before kyree look"')
+    c.add_argument("--video", help="only this video's clips (default: every video's)")
+    c = cmd(snap, "diff", snapshots.diff, "what is different now from a snapshot")
+    c.add_argument("snapshot", help="its id, or its first 8 characters")
+    c = cmd(snap, "restore", snapshots.restore, "put a snapshot back (undoable: each change is a version)")
+    c.add_argument("snapshot", help="its id, or its first 8 characters")
+    c.add_argument("--only", choices=["brand", "clips"], help="only the kit, or only the clips")
+    c = cmd(snap, "delete", snapshots.delete, "delete a snapshot (needs --yes: it can't be undone)")
+    c.add_argument("snapshot", help="its id, or its first 8 characters")
+    c.add_argument("--yes", action="store_true")
+    c = cmd(sub, "snapshots", snapshots.list_, "a brand's snapshots")
+    c.add_argument("brand", help="name, handle or code")
+
+    c = cmd(sub, "look", looks.look, "see a clip: stills, an overview sheet, or variants side by side (not saved)")
+    which_clip(c)
+    c.add_argument("--at", nargs="+", type=float, metavar="SECONDS", help="moments, in seconds into the clip")
+    c.add_argument(
+        "--sheet",
+        nargs="?",
+        type=int,
+        const=6,
+        metavar="N",
+        help="one picture: N moments picked for an overview (default 6), or the --at moments",
+    )
+    c.add_argument(
+        "--try", dest="try_", metavar="PATH=A,B", help="variants side by side: captions.preset=bold,subtitle"
+    )
+    c.add_argument("--aspect", default="9:16", choices=["9:16", "1:1", "4:5", "16:9"])
+    c.add_argument("--width", type=int, help="pixels across each picture (default 1080)")
+    c.add_argument("--out", help=f"the folder for the files (default ./{looks.OUT})")
+    c.add_argument("--timeout", help="give up waiting after this long (90s, 30m, 2h)")
+    c = cmd(sub, "thumbs", looks.thumbs, "every clip's thumbnail of a video in one picture")
+    c.add_argument("video", help="its id, or its first 8 characters")
+    c.add_argument("--width", type=int, help="pixels across the picture (default 1600)")
+    c.add_argument("--columns", type=int, help="thumbnails across (default 3)")
+    c.add_argument("--out", help=f"the folder for the file (default ./{looks.OUT})")
+    c.add_argument("--timeout", help="give up waiting after this long (90s, 30m, 2h)")
+    c = cmd(sub, "listen", looks.listen, "a clip's sound as the export mixes it (MP3), and its levels")
+    which_clip(c)
+    c.add_argument("--no-music", action="store_true", help="the voices alone")
+    c.add_argument("--out", help=f"the folder for the file (default ./{looks.OUT})")
+    c.add_argument("--timeout", help="give up waiting after this long (90s, 30m, 2h)")
 
     c = cmd(sub, "export", commands.export, "export a video's approved assets, wait, and download them")
     c.add_argument("video", help="its id, or its first 8 characters")
@@ -123,15 +240,29 @@ def main(argv: list[str] | None = None) -> int:
         if option == "--profile" and argv:
             first.append(argv.pop(0))
     argv += first
-    # `grm job <id>` is `grm job show <id>`.
+    # `grm job <id>` is `grm job show <id>`; `grm snapshot <brand> <name>` is `grm snapshot take …`.
     if len(argv) >= 2 and argv[0] == "job" and argv[1] not in ("show", "wait", "-h", "--help"):
         argv = ["job", "show", *argv[1:]]
-    args = p.parse_args(argv)
+    if (
+        len(argv) >= 2
+        and argv[0] == "snapshot"
+        and argv[1] not in ("take", "diff", "restore", "delete", "-h", "--help")
+    ):
+        argv = ["snapshot", "take", *argv[1:]]
+    # A clip command's words may come either side of its options (`clip set 3ef2 --video bf4a hook=…`); argparse
+    # takes the first run of them only, and leaves the rest over.
+    args, rest = p.parse_known_args(argv)
+    if rest:
+        if getattr(args, "then", None) and not any(r.startswith("-") for r in rest):
+            args.words += rest
+        else:
+            p.error(f"unrecognized arguments: {' '.join(rest)}")
     if not getattr(args, "fn", None):
         p.print_help(sys.stderr)
         return USAGE
     out = Out(as_json=args.json, quiet=args.quiet)
     try:
+        _split_clip(args)
         return args.fn(args, out)
     except GrmError as e:
         if args.json:
@@ -143,6 +274,27 @@ def main(argv: list[str] | None = None) -> int:
     except KeyboardInterrupt:
         print("grm: stopped", file=sys.stderr)
         return 130
+
+
+def _split_clip(args: argparse.Namespace) -> None:
+    """The words after a clip command: the clip's id first, unless --match names it; then what the command takes."""
+    then = getattr(args, "then", None)
+    if not then:
+        return
+    dest, metavar, kind = then
+    words = list(args.words)
+    args.clip = None if args.match else words.pop(0)
+    if not words:
+        raise usage(f"Say the {metavar.rstrip('…')} after the clip", f"grm clip {args.action} --help")
+    if kind == "text":
+        setattr(args, dest, " ".join(words))
+    elif kind == "int":
+        if len(words) != 1 or not words[0].isdigit():
+            words_said = " ".join(words)
+            raise usage(f"“{words_said}” isn't a version number", "grm clip history <clip> lists them.")
+        setattr(args, dest, int(words[0]))
+    else:
+        setattr(args, dest, words)
 
 
 if __name__ == "__main__":

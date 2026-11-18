@@ -1,0 +1,144 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "id": "055a8d7e-21f4-449b-a9b3-940e86d1b18a",
+  "name": "The Shop Floor",
+  "code": "shopfloor",
+  "version": 1,
+  "handle": "",
+  "brand_kit": {},
+  "kit": {
+   "id": "clean",
+   "name": "Clean",
+   "headFont": "Inter",
+   "bodyFont": "Inter",
+   "bg": "#ffffff",
+   "fg": "#111315",
+   "accent": "#2f6bff",
+   "headUpper": false,
+   "headWeight": 800,
+   "captionFont": "Inter",
+   "captionAccent": "#2f6bff",
+   "captions": {
+    "preset": "descript",
+    "perBeat": 2,
+    "position": "bottom",
+    "emoji": false,
+    "mask": false,
+    "punctuation": false,
+    "gapFree": true
+   },
+   "watermark": "off",
+   "hookOn": true,
+   "nameTag": true,
+   "brollAuto": true,
+   "hookHold": "go",
+   "hookLook": "bar",
+   "hookPosition": "top",
+   "titleKicker": true,
+   "hookEnter": "none",
+   "hookSeconds": 2.6,
+   "titleKickerFront": false,
+   "titleNameLook": "spaced",
+   "titleRule": false,
+   "titleAbove": "set",
+   "thumbLook": "title",
+   "thumbPosition": "title",
+   "thumbName": true,
+   "thumbNameLook": "spaced",
+   "thumbAbove": "set",
+   "tidyLevel": "natural",
+   "layout": "auto",
+   "pace": 100,
+   "audiogram": {
+    "wave": "bars",
+    "bg": "colour",
+    "cover": true,
+    "who": true,
+    "progress": true
+   },
+   "files": {
+    "audioFormat": "mp3",
+    "srt": true,
+    "vtt": true
+   },
+   "music": {
+    "music": 0,
+    "voice": 0,
+    "dip": 0,
+    "fade": true,
+    "start": "best"
+   },
+   "filter": {
+    "id": "none",
+    "strength": 100,
+    "adjust": {},
+    "broll": true
+   },
+   "brollLook": "auto",
+   "deck": {
+    "brandName": true,
+    "times": true,
+    "arrow": true,
+    "backgrounds": "auto",
+    "audio": "voice"
+   },
+   "slideColour": "light",
+   "pictures": true,
+   "pictureStyle": "Natural-light documentary photograph in a real, lived-in place: soft window or evening light, muted natural colours, visible texture and wear, shallow depth of field, fine 35mm film grain. Honest and quiet, like a feature in a serious magazine."
+  },
+  "kit_is_default": true,
+  "voice": {
+   "sample_posts": "",
+   "tone_rules": "",
+   "banned": [],
+   "emoji": "none",
+   "hashtags": "default",
+   "cta": "",
+   "platforms": [
+    "tiktok",
+    "reels",
+    "shorts",
+    "x",
+    "linkedin"
+   ]
+  },
+  "voice_is_default": true,
+  "vocabulary": [],
+  "default_pack": {
+   "clips": 20,
+   "clip_lengths": [
+    "15-30",
+    "30-60",
+    "60-90"
+   ],
+   "aspects": [
+    "9:16",
+    "1:1"
+   ],
+   "audiogram": false,
+   "audio_clip": false,
+   "x_posts": 5,
+   "x_threads": 1,
+   "linkedin_posts": 2,
+   "quotes": 5,
+   "show_notes": true,
+   "carousels": 3,
+   "favour_topics": [],
+   "skip_segments": []
+  },
+  "logo_url": null,
+  "cover_url": null,
+  "picture_samples": [],
+  "fonts": [],
+  "rss": {
+   "url": "",
+   "auto": false,
+   "error": "",
+   "checked_at": null,
+   "items": null
+  },
+  "counts": {}
+ }
+}

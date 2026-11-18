@@ -3,13 +3,13 @@
  "retry_after": null,
  "body": [
   {
-   "id": "308afdb4-2d6b-4378-9996-7f75f769a1cf",
-   "brand_id": "c41d00ca-eb04-4100-b00e-936602891b81",
+   "id": "16cc0b11-41a2-46e7-ae9d-be927fbb5c3f",
+   "brand_id": "055a8d7e-21f4-449b-a9b3-940e86d1b18a",
    "brand_name": "The Shop Floor",
    "brand_code": "shopfloor",
    "title": "Rebuilding after the fire",
    "external_ref": "drive:1AbC",
-   "job": "fa2235e1-272b-46d0-a4b4-7a055214c083",
+   "job": "c5c6a4c5-63b4-4461-82fe-0216d59cdc26",
    "guests": [],
    "links": [],
    "status": "review",
@@ -57,10 +57,10 @@
     }
    },
    "urls": {
-    "proxy": "http://localhost:8140/media/.eJwFwW0OwiAMANC79LcVtpaP7jYF1sQ4NyIxahbv7nsn3GGB93DNZ_IhVCRRRVarKIUVydQXi21SJrf22zjaOhz5rNYK49xiQaaUUUQiJkvBUhSdqrn-PD7f66MzXGCHZX9t2-8PEOEg0g.av2Ggw.k75NEd8Nj9vGSp_5YEDGL2hWyXc",
-    "audio": "http://localhost:8140/media/.eJwFwUkOgzAMAMC_-IxJqJ3F_MaJsYRKoVKEeqj698584QkrfEawWCmm1JFEFVm9ozRWJNfYPNuiTGF77-OybQSKVd0a48NyQ6ZSUUQyFi_JSxZduge9bb_mFytMcMJ63sfx-wMMmSCT.av2Ggw.n-3zoSAqGeUJULUq9Pb9mWBCTRs",
-    "poster": "http://localhost:8140/media/.eJwFwUkOwjAMAMC_-IxJirO5v3HiGAFVGxEQB8TfmfnCA1b4TKe-kI-xIbEIBrGGXIMgmfhqSRcJ5Pq4zUP7dOSLmNaAF00VA-WCzJwwW46WE8vSzI1jvvrzfB9XOMEO6_7ett8fNNAhXQ.av2Ggw.GHjYF-ujMFBOErpxvn_G5AYVQRg",
-    "precheck_audio": "http://localhost:8140/media/.eJwFwUkOwjAMAMC_-IxJip3F_Y2zWKCWUhFVHFD_3pk_LDDDb7jmM_kQKpKoIqtVlMKKZOqLxTYpk-v7a3xaH458VmuF8dFiQaaUUUQiJkvBUhSdqrn92-uz1-X-ZoUbbDBvx7qeF3T4IcY.av2Ggw.-TbSEyj4bIKyBWzUml9DAcbmO-Y"
+    "proxy": "http://localhost:8140/media/.eJwNy1EOwiAMANC79NvKCl03dhsoJTHOjUiMmmV31_f_DrjDAu_uZhljEK7IJRbkQB6jr4Jl4KRVk5DMztqt78W6I1EdMhEyJY8sNmGy_8sW_VRzHjVU157753t9NIYLbLBsr3U9f9l7IJo.av2c7w._jMFSDloKk6AwBOW-ZbfmbjGLpU",
+    "audio": "http://localhost:8140/media/.eJwNy8ENgzAMAMBd_K4JTowhbOPEsYRKoVKE-qi6e7n_feEJK3x6WGTKSdiRLRtyoog5uqCNrNWrCskS2nvrp7UeSGodCxEyaUSWNqO2-5WW4-ylTDV50Mu2c3ixwgMOWI9r339_1TMgWw.av2c7w.yFw9zITRzdYzbwT4uOfWxQ6lFB0",
+    "poster": "http://localhost:8140/media/.eJwNy0sSgjAMANC7ZG0saUOg3KafxFEZ6FgdFw53x7d_P3jCAt_uZhljEDbkGityII_Rm2AdOBUrSUhmp-3e96rdkZQyZCJkSh5ZdMKk_5c1-slyHksw1_b-1tf10W5wgQ2W7bOuxwn9MiEl.av2c7w.cw8jY38MKjfnSVXsJqpyfRvv6iY",
+    "precheck_audio": "http://localhost:8140/media/.eJwNy1EOgjAMANC79Ns6upXCuE3XddGASFyIH8a76_t_H1hhgXcPs4w5CTfkmityoog5NsE6sFozFZI5-HHvz-o9kJgNhQiZNCKLT6j-f8VznFopo6UWjpfbzW29PljhAjss-7lt3x88-SGO.av2c7w.ate0rE2BUYV4HbeFkI9AOwTev0Y"
    },
    "has_framing": true,
    "cleanup": {
@@ -84,7 +84,7 @@
      "reduction": 0.0,
      "threshold": null
     },
-    "version": "8d8727c1f7",
+    "version": "6bcc6cc73f",
     "status": "done"
    },
    "edited_in": {
@@ -136,7 +136,7 @@
      "progress": 1.0,
      "detail": "224 words from 2 speakers.",
      "error": null,
-     "seconds": 0.2,
+     "seconds": 0.3,
      "remaining_seconds": null
     },
     {
@@ -146,7 +146,7 @@
      "progress": 1.0,
      "detail": "3 clips found.",
      "error": null,
-     "seconds": 4.6,
+     "seconds": 4.5,
      "remaining_seconds": null
     },
     {
@@ -156,7 +156,7 @@
      "progress": 1.0,
      "detail": "8 posts, quotes, notes and decks drafted.",
      "error": null,
-     "seconds": 4.7,
+     "seconds": 4.5,
      "remaining_seconds": null
     },
     {
@@ -166,7 +166,7 @@
      "progress": 1.0,
      "detail": "No faces found, so clips use the full frame.",
      "error": null,
-     "seconds": 1.2,
+     "seconds": 1.6,
      "remaining_seconds": null
     }
    ],
@@ -176,8 +176,8 @@
     "rejected": 0,
     "total": 11
    },
-   "created_at": "2026-11-18T11:05:33.528734+00:00",
-   "ready_at": "2026-11-18T11:05:38.954588+00:00",
+   "created_at": "2026-11-18T12:41:12.924452+00:00",
+   "ready_at": "2026-11-18T12:41:18.276046+00:00",
    "exported_at": null
   }
  ]

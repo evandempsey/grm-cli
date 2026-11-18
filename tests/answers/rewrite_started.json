@@ -1,0 +1,25 @@
+{
+ "status": 202,
+ "retry_after": "5",
+ "body": {
+  "job": {
+   "id": "264cc57f-c4ab-47fd-bb78-15f5992c9844",
+   "kind": "rewrite",
+   "status": "running",
+   "progress": 0.0,
+   "detail": "",
+   "subject": {
+    "video": "16cc0b11-41a2-46e7-ae9d-be927fbb5c3f",
+    "asset": "c1ff05cd-0b0d-4274-9da5-2579c7d270e4"
+   },
+   "parent": null,
+   "children": [],
+   "result": null,
+   "error": null,
+   "attempts": 1,
+   "created_at": "2026-11-18T12:41:21.403576+00:00",
+   "started_at": "2026-11-18T12:41:21.408779+00:00",
+   "finished_at": null
+  }
+ }
+}

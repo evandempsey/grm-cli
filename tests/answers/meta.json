@@ -2,7 +2,7 @@
  "status": 200,
  "retry_after": null,
  "body": {
-  "api": 1,
+  "api": 2,
   "min_cli": "0.1.0",
   "server": "dev",
   "scopes": [

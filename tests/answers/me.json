@@ -3,14 +3,14 @@
  "retry_after": null,
  "body": {
   "user": {
-   "id": "59269350-9533-4fd4-b30f-083eeea6c5c3",
-   "email": "rec-3a53004d@example.com",
+   "id": "586df0b3-67ce-4b30-8749-1ed156af4241",
+   "email": "rec-a219516b@example.com",
    "name": "Ada Okafor",
    "is_staff": false
   },
   "workspaces": [
    {
-    "id": "d083055c-39aa-4afc-9b4a-3fa0bf6d1a43",
+    "id": "8659364f-4d9d-4312-92f6-d04acfca6168",
     "name": "Okafor Media",
     "role": "owner",
     "brands": 2,

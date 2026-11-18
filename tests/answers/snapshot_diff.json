@@ -1,0 +1,73 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "snapshot": {
+   "id": "c5f5945e-6da5-437b-9704-85ee5bbad5d5",
+   "name": "before the look",
+   "brand_id": "055a8d7e-21f4-449b-a9b3-940e86d1b18a",
+   "scope": "video",
+   "video_id": "16cc0b11-41a2-46e7-ae9d-be927fbb5c3f",
+   "brand_version": 3,
+   "clips": 3,
+   "by": "Ada Okafor",
+   "at": "2026-11-18T12:41:21.255950+00:00"
+  },
+  "brand": [],
+  "clips": [
+   {
+    "asset_id": "19be715a-9938-4a2d-b20b-29a645b320f6",
+    "title": "We paid them in bread, which",
+    "version": 2,
+    "changes": [
+     {
+      "path": "spec.captions.preset",
+      "then": null,
+      "now": "bold"
+     }
+    ]
+   },
+   {
+    "asset_id": "c1ff05cd-0b0d-4274-9da5-2579c7d270e4",
+    "title": "Your wife isn't a spreadsheet",
+    "version": 2,
+    "changes": [
+     {
+      "path": "spec.captions.preset",
+      "then": null,
+      "now": "bold"
+     },
+     {
+      "path": "spec.hook",
+      "then": "What did you do in that",
+      "now": "Your wife isn't a spreadsheet"
+     },
+     {
+      "path": "spec.thumb.t",
+      "then": null,
+      "now": 3.2
+     },
+     {
+      "path": "title",
+      "then": "What did you do in that",
+      "now": "Your wife isn't a spreadsheet"
+     }
+    ]
+   },
+   {
+    "asset_id": "c2bc7af3-585a-412f-941f-f474defd50b1",
+    "title": "So take me back to the",
+    "version": 2,
+    "changes": [
+     {
+      "path": "spec.captions.preset",
+      "then": null,
+      "now": "bold"
+     }
+    ]
+   }
+  ],
+  "gone": [],
+  "added": []
+ }
+}

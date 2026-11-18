@@ -2,13 +2,13 @@
  "status": 200,
  "retry_after": null,
  "body": {
-  "id": "308afdb4-2d6b-4378-9996-7f75f769a1cf",
-  "brand_id": "c41d00ca-eb04-4100-b00e-936602891b81",
+  "id": "16cc0b11-41a2-46e7-ae9d-be927fbb5c3f",
+  "brand_id": "055a8d7e-21f4-449b-a9b3-940e86d1b18a",
   "brand_name": "The Shop Floor",
   "brand_code": "shopfloor",
   "title": "Rebuilding after the fire",
   "external_ref": "drive:1AbC",
-  "job": "d388f437-410a-4ad7-88c3-67af4bd440e2",
+  "job": "6720ac97-fdf2-470e-a490-b39817535747",
   "guests": [],
   "links": [],
   "status": "uploading",
@@ -53,7 +53,7 @@
    "rejected": 0,
    "total": 0
   },
-  "created_at": "2026-11-18T11:05:33.528734+00:00",
+  "created_at": "2026-11-18T12:41:12.924452+00:00",
   "ready_at": null,
   "exported_at": null
  }

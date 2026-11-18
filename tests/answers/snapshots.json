@@ -1,0 +1,19 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "snapshots": [
+   {
+    "id": "c5f5945e-6da5-437b-9704-85ee5bbad5d5",
+    "name": "before the look",
+    "brand_id": "055a8d7e-21f4-449b-a9b3-940e86d1b18a",
+    "scope": "video",
+    "video_id": "16cc0b11-41a2-46e7-ae9d-be927fbb5c3f",
+    "brand_version": 3,
+    "clips": 3,
+    "by": "Ada Okafor",
+    "at": "2026-11-18T12:41:21.255950+00:00"
+   }
+  ]
+ }
+}
