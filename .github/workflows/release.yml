@@ -1,0 +1,26 @@
+name: Release
+
+# A tag like v0.1.0 builds grm-cli and publishes it to PyPI with trusted publishing: PyPI trusts this workflow, so no
+# PyPI token is stored anywhere. The tag must match the version in pyproject.toml.
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: The tag is the version
+        run: |
+          version="$(uv run --no-sync python -c 'import tomllib; print(tomllib.load(open("pyproject.toml","rb"))["project"]["version"])')"
+          test "v${version}" = "${GITHUB_REF_NAME}" || { echo "tag ${GITHUB_REF_NAME} is not v${version}"; exit 1; }
+      - run: uv sync --locked
+      - run: uv run pytest
+      - run: uv build
+      - uses: pypa/gh-action-pypi-publish@release/v1

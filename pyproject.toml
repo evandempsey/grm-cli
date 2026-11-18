@@ -1,0 +1,46 @@
+[project]
+name = "grm-cli"
+version = "0.1.0"
+description = "The command line for Generational Run Machine (GRM): upload, wait, review and export from a terminal or a script."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Evan Dempsey" }]
+dependencies = [
+    "httpx>=0.27",
+    "keyring>=25",
+    "platformdirs>=4",
+    "pyyaml>=6",
+]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+]
+
+[project.urls]
+Homepage = "https://github.com/evandempsey/grm-cli"
+Issues = "https://github.com/evandempsey/grm-cli/issues"
+
+[project.scripts]
+grm = "grm_cli.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/grm_cli"]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

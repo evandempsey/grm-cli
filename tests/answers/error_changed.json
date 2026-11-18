@@ -1,0 +1,9 @@
+{
+ "status": 409,
+ "body": {
+  "code": "busy",
+  "title": "This clip has changed since version 0",
+  "fix": "It is at version 1 now. Read it again, then make the change to what is there.",
+  "version": 1
+ }
+}

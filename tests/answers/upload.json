@@ -1,0 +1,15 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "id": "c46af696-b550-4e00-836c-99e6c0cf9b32",
+  "filename": "episode.mp4",
+  "size_bytes": 1232919,
+  "part_bytes": 1048576,
+  "part_count": 2,
+  "status": "open",
+  "direct": false,
+  "received": [],
+  "received_bytes": 0
+ }
+}

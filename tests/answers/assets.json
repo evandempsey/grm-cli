@@ -1,0 +1,1147 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": [
+  {
+   "id": "0b0a8eec-d12d-4948-9cac-696ba97dcbe0",
+   "kind": "carousel",
+   "status": "review",
+   "title": "Lessons from rebuilding, in four slides",
+   "spec": {
+    "v": 2,
+    "form": "list",
+    "idea": "Lessons from rebuilding",
+    "hooks": [
+     "Lessons from rebuilding, in four slides",
+     "What a fire taught one baker (1)",
+     "Start again with what matters"
+    ],
+    "colour": null,
+    "slides": [
+     {
+      "id": "5912272fc0",
+      "body": "",
+      "type": "hook",
+      "frame": null,
+      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/7aec3a8680054955a1076f4aa1717be7.jpg",
+      "where": "",
+      "figure": "",
+      "images": [
+       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/7aec3a8680054955a1076f4aa1717be7.jpg"
+      ],
+      "source": {
+       "t0": 6.6,
+       "t1": 9.26,
+       "end_word": 25,
+       "start_word": 17
+      },
+      "picture": "A bakery's empty ovens at dawn, flour on a steel bench, one warm lamp.",
+      "speaker": "A",
+      "headline": "Lessons from rebuilding, in four slides",
+      "background": "image"
+     },
+     {
+      "id": "df002ed627",
+      "body": "",
+      "type": "point",
+      "frame": null,
+      "image": null,
+      "where": "",
+      "figure": "",
+      "images": [],
+      "source": {
+       "t0": 6.6,
+       "t1": 9.26,
+       "end_word": 25,
+       "start_word": 17
+      },
+      "picture": "",
+      "speaker": "A",
+      "headline": "So take me back to",
+      "background": "colour"
+     },
+     {
+      "id": "53ecdc1a34",
+      "body": "By the time I got there the ovens were gone and so was the roof.",
+      "type": "point",
+      "frame": null,
+      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/8c267ad2a1fc4bd780cddcc18159ad8d.jpg",
+      "where": "",
+      "figure": "",
+      "images": [
+       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/8c267ad2a1fc4bd780cddcc18159ad8d.jpg"
+      ],
+      "source": {
+       "t0": 14.7,
+       "t1": 19.16,
+       "end_word": 55,
+       "start_word": 41
+      },
+      "picture": "Loaves cooling on a wooden rack in a small bakery.",
+      "speaker": "B",
+      "headline": "By the time I got",
+      "background": "image"
+     },
+     {
+      "id": "acff3f7c2c",
+      "body": "What did you do in that first week.",
+      "type": "point",
+      "frame": null,
+      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/be71dd3167864cb0ab280e5a4e85fb39.jpg",
+      "where": "",
+      "figure": "",
+      "images": [
+       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/be71dd3167864cb0ab280e5a4e85fb39.jpg"
+      ],
+      "source": {
+       "t0": 24.6,
+       "t1": 26.96,
+       "end_word": 78,
+       "start_word": 71
+      },
+      "picture": "A phone face down on a flour-dusted steel bench at dawn.",
+      "speaker": "A",
+      "headline": "What did you do in",
+      "background": "image"
+     },
+     {
+      "id": "4884f47394",
+      "body": "",
+      "type": "stat",
+      "frame": null,
+      "image": "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/4cbf9697c6fb480a985f2fecd790c17f.jpg",
+      "where": "",
+      "figure": "41 calls",
+      "images": [
+       "ws/d083055c-39aa-4afc-9b4a-3fa0bf6d1a43/episodes/308afdb4-2d6b-4378-9996-7f75f769a1cf/pictures/4cbf9697c6fb480a985f2fecd790c17f.jpg"
+      ],
+      "source": {
+       "t0": 30.9,
+       "t1": 35.06,
+       "end_word": 102,
+       "start_word": 89
+      },
+      "picture": "A notebook of crossed-out phone numbers beside a cold cup of coffee.",
+      "speaker": "B",
+      "headline": "made in the first week",
+      "background": "image"
+     },
+     {
+      "id": "496921e4a8",
+      "body": "",
+      "type": "quote",
+      "frame": null,
+      "image": null,
+      "where": "",
+      "figure": "",
+      "images": [],
+      "source": {
+       "t0": 55.5,
+       "t1": 59.66,
+       "end_word": 175,
+       "start_word": 162
+      },
+      "picture": "",
+      "speaker": "B",
+      "headline": "We paid them in bread, which is the best deal I have ever made.",
+      "background": "colour"
+     },
+     {
+      "id": "be26917c6a",
+      "body": "Rebuilding after the fire",
+      "type": "cta",
+      "frame": null,
+      "image": null,
+      "where": "Follow The Shop Floor for more",
+      "figure": "",
+      "images": [],
+      "source": null,
+      "picture": "",
+      "speaker": null,
+      "headline": "Watch the whole video",
+      "background": "colour"
+     }
+    ],
+    "source": {
+     "t0": 6.6,
+     "t1": 35.06,
+     "end_word": 102,
+     "start_word": 17
+    },
+    "tiktok": "Lessons from rebuilding. The whole conversation is in the latest video. #smallbusiness",
+    "caption": "Lessons from rebuilding: four things a bakery owner learned from starting again. #smallbusiness #bakery",
+    "numbered": true,
+    "unverified": []
+   },
+   "position": 0,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.604959+00:00",
+   "unverified": 0,
+   "lint": [
+    [
+     {
+      "key": "hook_words",
+      "ok": true,
+      "text": "Hook is 6 words (10 or fewer)"
+     },
+     {
+      "key": "fits",
+      "ok": true,
+      "text": "Text fits the slide"
+     },
+     {
+      "key": "no_cta",
+      "ok": true,
+      "text": "No call to action on the slide, as TikTok wants"
+     }
+    ],
+    [
+     {
+      "key": "fits",
+      "ok": true,
+      "text": "Text fits the slide"
+     },
+     {
+      "key": "no_cta",
+      "ok": true,
+      "text": "No call to action on the slide, as TikTok wants"
+     }
+    ],
+    [
+     {
+      "key": "fits",
+      "ok": true,
+      "text": "Text fits the slide"
+     },
+     {
+      "key": "no_cta",
+      "ok": true,
+      "text": "No call to action on the slide, as TikTok wants"
+     }
+    ],
+    [
+     {
+      "key": "fits",
+      "ok": true,
+      "text": "Text fits the slide"
+     },
+     {
+      "key": "no_cta",
+      "ok": true,
+      "text": "No call to action on the slide, as TikTok wants"
+     }
+    ],
+    [
+     {
+      "key": "figure",
+      "ok": true,
+      "text": "The slide has its figure"
+     },
+     {
+      "key": "fits",
+      "ok": true,
+      "text": "Text fits the slide"
+     },
+     {
+      "key": "no_cta",
+      "ok": true,
+      "text": "No call to action on the slide, as TikTok wants"
+     }
+    ],
+    [
+     {
+      "key": "quote",
+      "ok": true,
+      "text": "The quote has its words"
+     },
+     {
+      "key": "no_cta",
+      "ok": true,
+      "text": "No call to action on the slide, as TikTok wants"
+     }
+    ],
+    [
+     {
+      "key": "fits",
+      "ok": true,
+      "text": "Text fits the slide"
+     }
+    ]
+   ]
+  },
+  {
+   "id": "379b7040-a3e0-4879-adb8-4b9938145876",
+   "kind": "clip",
+   "status": "review",
+   "title": "We paid them in bread, which",
+   "spec": {
+    "lay": {},
+    "pad": {
+     "in": 0.0,
+     "out": 0.1
+    },
+    "copy": {
+     "x": {
+      "limit": 280,
+      "variants": [
+       {
+        "text": "We paid them in bread, which.\n\nFrom the latest video.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "One baker's rule: we paid them in bread, which.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "tiktok": {
+      "limit": 2200,
+      "variants": [
+       {
+        "text": "We paid them in bread, which. A bakery owner on starting again.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "What a fire taught one baker: we paid them in bread, which.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "linkedin": {
+      "limit": 3000,
+      "variants": [
+       {
+        "text": "We paid them in bread, which.\n\nA short clip from a conversation about rebuilding a business after a fire.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "We paid them in bread, which. Worth two minutes of your day.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "shorts_title": {
+      "limit": 100,
+      "variants": [
+       {
+        "text": "We paid them in bread, which",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "shorts_description": {
+      "limit": 5000,
+      "variants": [
+       {
+        "text": "We paid them in bread, which. From the latest video.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     }
+    },
+    "hook": "We paid them in bread, which",
+    "music": {
+     "on": true,
+     "track": {
+      "id": "sawdust",
+      "source": "library"
+     },
+     "suggested": {
+      "at": "2026-11-18T11:05:38+00:00",
+      "bpm": [
+       84,
+       108
+      ],
+      "why": "A story with a turn in it: the music carries the turn.",
+      "want": true,
+      "brief": "Warm acoustic instrumental, fingerpicked guitar playing a rising four-note figure, brushed drums joining halfway, lifting on the last line. Quietly proud. 96 BPM, no vocals.",
+      "other": "Hopeful piano instrumental, a simple major-key motif over soft strings that swell in the last ten seconds. Open, certain. 84 BPM, no vocals.",
+      "picks": [
+       {
+        "id": "sawdust",
+        "source": "library"
+       },
+       {
+        "id": "felt",
+        "source": "library"
+       },
+       {
+        "id": "brushwork",
+        "source": "library"
+       },
+       {
+        "id": "workbench",
+        "source": "library"
+       }
+      ],
+      "prompt": 5,
+      "search": "warm acoustic guitar, quietly proud",
+      "feeling": "Opens unsure and ends certain, turning on the last line."
+     }
+    },
+    "captions": null,
+    "emphasis": [
+     185,
+     197,
+     202,
+     207
+    ],
+    "cold_open": true,
+    "copy_ready": true
+   },
+   "position": 0,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:38.918522+00:00",
+   "unverified": 0,
+   "moment": {
+    "id": "1020b749-4196-479b-a78c-c1e96ec4a801",
+    "start_word": 148,
+    "end_word": 211,
+    "t0": 50.85,
+    "t1": 71.81,
+    "score": 87,
+    "scores": {
+     "payoff": 85,
+     "novelty": 80,
+     "stands_alone": 88,
+     "hook_strength": 92
+    },
+    "topic": "remarkable setback",
+    "reason": "Kept the setup and the payoff, cut what came between.",
+    "source": "detect",
+    "query": null,
+    "idea": "What would you tell someone who is facing a setback like that right now",
+    "emotion": "conviction",
+    "band": "15-30",
+    "pieces": [
+     [
+      148,
+      161
+     ],
+     [
+      176,
+      211
+     ]
+    ],
+    "teaser": [
+     198,
+     211
+    ],
+    "tidy": {
+     "pace": {
+      "A": 3.158,
+      "B": 3.163
+     },
+     "candidates": [
+      {
+       "id": "p1",
+       "t0": 65.51,
+       "t1": 66.0,
+       "why": "stand-in grade",
+       "kind": "pause",
+       "after": 193,
+       "grade": "natural"
+      },
+      {
+       "id": "p2",
+       "t0": 67.16,
+       "t1": 67.65,
+       "why": "stand-in grade",
+       "kind": "pause",
+       "after": 197,
+       "grade": "keep"
+      },
+      {
+       "id": "c1",
+       "w0": 208,
+       "w1": 208,
+       "why": "stand-in grade",
+       "kind": "soft",
+       "grade": "keep"
+      }
+     ]
+    },
+    "rank": 1
+   },
+   "seconds": 19.9,
+   "old_text": [
+    [
+     2.85,
+     3.85
+    ],
+    [
+     11.67,
+     12.67
+    ],
+    [
+     18.51,
+     19.51
+    ]
+   ]
+  },
+  {
+   "id": "af50d538-95cf-4f32-ba1b-7a8398cdd25d",
+   "kind": "clip",
+   "status": "review",
+   "title": "What did you do in that",
+   "spec": {
+    "lay": {},
+    "pad": {
+     "in": 0.0,
+     "out": 0.1
+    },
+    "copy": {
+     "x": {
+      "limit": 280,
+      "variants": [
+       {
+        "text": "What did you do in that.\n\nFrom the latest video.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "One baker's rule: what did you do in that.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "tiktok": {
+      "limit": 2200,
+      "variants": [
+       {
+        "text": "What did you do in that. A bakery owner on starting again.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "What a fire taught one baker: what did you do in that.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "linkedin": {
+      "limit": 3000,
+      "variants": [
+       {
+        "text": "What did you do in that.\n\nA short clip from a conversation about rebuilding a business after a fire.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "What did you do in that. Worth two minutes of your day.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "shorts_title": {
+      "limit": 100,
+      "variants": [
+       {
+        "text": "What did you do in that",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "shorts_description": {
+      "limit": 5000,
+      "variants": [
+       {
+        "text": "What did you do in that. From the latest video.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     }
+    },
+    "hook": "What did you do in that",
+    "music": {
+     "on": true,
+     "track": {
+      "id": "sawdust",
+      "source": "library"
+     },
+     "suggested": {
+      "at": "2026-11-18T11:05:38+00:00",
+      "bpm": [
+       84,
+       108
+      ],
+      "why": "A story with a turn in it: the music carries the turn.",
+      "want": true,
+      "brief": "Warm acoustic instrumental, fingerpicked guitar playing a rising four-note figure, brushed drums joining halfway, lifting on the last line. Quietly proud. 96 BPM, no vocals.",
+      "other": "Hopeful piano instrumental, a simple major-key motif over soft strings that swell in the last ten seconds. Open, certain. 84 BPM, no vocals.",
+      "picks": [
+       {
+        "id": "sawdust",
+        "source": "library"
+       },
+       {
+        "id": "workbench",
+        "source": "library"
+       },
+       {
+        "id": "brushwork",
+        "source": "library"
+       },
+       {
+        "id": "long-game",
+        "source": "library"
+       }
+      ],
+      "prompt": 5,
+      "search": "warm acoustic guitar, quietly proud",
+      "feeling": "Opens unsure and ends certain, turning on the last line."
+     }
+    },
+    "captions": null,
+    "emphasis": [
+     82,
+     85,
+     108,
+     115
+    ],
+    "cold_open": true,
+    "copy_ready": true
+   },
+   "position": 1,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:38.919136+00:00",
+   "unverified": 0,
+   "moment": {
+    "id": "61f67801-336d-42e8-8d31-e077fc7ff983",
+    "start_word": 56,
+    "end_word": 115,
+    "t0": 19.65,
+    "t1": 39.41,
+    "score": 85,
+    "scores": {
+     "payoff": 83,
+     "novelty": 76,
+     "stands_alone": 86,
+     "hook_strength": 89
+    },
+    "topic": "building business",
+    "reason": "Kept the setup and the payoff, cut what came between.",
+    "source": "detect",
+    "query": null,
+    "idea": "That number told me the business was the people and not the building",
+    "emotion": "conviction",
+    "band": "15-30",
+    "pieces": [
+     [
+      56,
+      70
+     ],
+     [
+      79,
+      115
+     ]
+    ],
+    "teaser": [
+     89,
+     102
+    ],
+    "tidy": {
+     "pace": {
+      "B": 3.163
+     },
+     "candidates": [
+      {
+       "id": "p1",
+       "t0": 30.41,
+       "t1": 30.9,
+       "why": "stand-in grade",
+       "kind": "pause",
+       "after": 88,
+       "grade": "natural"
+      },
+      {
+       "id": "p2",
+       "t0": 35.06,
+       "t1": 35.55,
+       "why": "stand-in grade",
+       "kind": "pause",
+       "after": 102,
+       "grade": "keep"
+      }
+     ]
+    },
+    "rank": 2
+   },
+   "seconds": 20.5,
+   "old_text": [
+    [
+     0.0,
+     3.6
+    ],
+    [
+     5.01,
+     6.01
+    ],
+    [
+     11.67,
+     15.51
+    ],
+    [
+     17.51,
+     18.51
+    ]
+   ]
+  },
+  {
+   "id": "0fd98c71-180a-4af1-8bd3-718ccd45d1ad",
+   "kind": "clip",
+   "status": "review",
+   "title": "So take me back to the",
+   "spec": {
+    "lay": {},
+    "pad": {
+     "in": 0.0,
+     "out": 0.1
+    },
+    "copy": {
+     "x": {
+      "limit": 280,
+      "variants": [
+       {
+        "text": "So take me back to the.\n\nFrom the latest video.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "One baker's rule: so take me back to the.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "tiktok": {
+      "limit": 2200,
+      "variants": [
+       {
+        "text": "So take me back to the. A bakery owner on starting again.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "What a fire taught one baker: so take me back to the.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "linkedin": {
+      "limit": 3000,
+      "variants": [
+       {
+        "text": "So take me back to the.\n\nA short clip from a conversation about rebuilding a business after a fire.",
+        "locked": false,
+        "unverified": []
+       },
+       {
+        "text": "So take me back to the. Worth two minutes of your day.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "shorts_title": {
+      "limit": 100,
+      "variants": [
+       {
+        "text": "So take me back to the",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     },
+     "shorts_description": {
+      "limit": 5000,
+      "variants": [
+       {
+        "text": "So take me back to the. From the latest video.",
+        "locked": false,
+        "unverified": []
+       }
+      ]
+     }
+    },
+    "hook": "So take me back to the",
+    "music": {
+     "on": true,
+     "track": {
+      "id": "long-game",
+      "source": "library"
+     },
+     "suggested": {
+      "at": "2026-11-18T11:05:38+00:00",
+      "bpm": [
+       84,
+       108
+      ],
+      "why": "A story with a turn in it: the music carries the turn.",
+      "want": true,
+      "brief": "Warm acoustic instrumental, fingerpicked guitar playing a rising four-note figure, brushed drums joining halfway, lifting on the last line. Quietly proud. 96 BPM, no vocals.",
+      "other": "Hopeful piano instrumental, a simple major-key motif over soft strings that swell in the last ten seconds. Open, certain. 84 BPM, no vocals.",
+      "picks": [
+       {
+        "id": "long-game",
+        "source": "library"
+       },
+       {
+        "id": "brushwork",
+        "source": "library"
+       },
+       {
+        "id": "felt",
+        "source": "library"
+       },
+       {
+        "id": "open-sign",
+        "source": "library"
+       }
+      ],
+      "prompt": 5,
+      "search": "warm acoustic guitar, quietly proud",
+      "feeling": "Opens unsure and ends certain, turning on the last line."
+     }
+    },
+    "captions": null,
+    "emphasis": [
+     34,
+     40,
+     64
+    ],
+    "cold_open": true,
+    "copy_ready": true
+   },
+   "position": 2,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:38.917693+00:00",
+   "unverified": 0,
+   "moment": {
+    "id": "a7f0ac74-0df2-4008-9321-fe36c1e28090",
+    "start_word": 5,
+    "end_word": 70,
+    "t0": 2.55,
+    "t1": 24.11,
+    "score": 82,
+    "scores": {
+     "payoff": 81,
+     "novelty": 72,
+     "stands_alone": 84,
+     "hook_strength": 86
+    },
+    "topic": "answered happened",
+    "reason": "Kept the setup and the payoff, cut what came between.",
+    "source": "detect",
+    "query": null,
+    "idea": "The strange thing is that I felt calm, because there was nothing left to protect",
+    "emotion": "conviction",
+    "band": "15-30",
+    "pieces": [
+     [
+      5,
+      16
+     ],
+     [
+      26,
+      70
+     ]
+    ],
+    "teaser": [
+     56,
+     70
+    ],
+    "tidy": {
+     "pace": {
+      "A": 3.158,
+      "B": 3.163
+     },
+     "candidates": [
+      {
+       "id": "p1",
+       "t0": 14.21,
+       "t1": 14.7,
+       "why": "stand-in grade",
+       "kind": "pause",
+       "after": 40,
+       "grade": "natural"
+      },
+      {
+       "id": "p2",
+       "t0": 19.16,
+       "t1": 19.65,
+       "why": "stand-in grade",
+       "kind": "pause",
+       "after": 55,
+       "grade": "keep"
+      }
+     ]
+    },
+    "rank": 3
+   },
+   "seconds": 22.3,
+   "old_text": [
+    [
+     0.85,
+     1.85
+    ],
+    [
+     4.47,
+     5.41
+    ],
+    [
+     6.41,
+     8.03
+    ],
+    [
+     8.77,
+     9.77
+    ],
+    [
+     10.77,
+     12.63
+    ],
+    [
+     14.61,
+     15.61
+    ],
+    [
+     18.61,
+     19.61
+    ]
+   ]
+  },
+  {
+   "id": "8f04fb2d-9ae4-47df-a805-02d80150a1be",
+   "kind": "linkedin_post",
+   "status": "review",
+   "title": "Speaker A: “So take me back to the morning it happened.”",
+   "spec": {
+    "angle": "Angle 1",
+    "limit": 3000,
+    "source": {
+     "t0": 6.6,
+     "t1": 9.26,
+     "end_word": 25,
+     "start_word": 17
+    },
+    "platform": "linkedin",
+    "variants": [
+     {
+      "text": "Speaker A: “So take me back to the morning it happened.”\n\nThat one line carries the whole video. It is about deciding what to keep before deciding what to rebuild.\n\nListen to the full conversation for the rest.",
+      "locked": false,
+      "unverified": []
+     },
+     {
+      "text": "Speaker A explains why it matters: so take me back to the morning it happened.\n\nThe full conversation is in the latest video.",
+      "locked": false,
+      "unverified": []
+     }
+    ]
+   },
+   "position": 0,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.292075+00:00",
+   "unverified": 0
+  },
+  {
+   "id": "f9400ccf-7eaf-4a98-9fa5-6748e0fae84a",
+   "kind": "quote",
+   "status": "review",
+   "title": "So take me back to the morning it happened.",
+   "spec": {
+    "t0": 6.6,
+    "t1": 9.26,
+    "text": "So take me back to the morning it happened.",
+    "speaker": "A",
+    "end_word": 25,
+    "start_word": 17
+   },
+   "position": 0,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.291637+00:00",
+   "unverified": 0
+  },
+  {
+   "id": "3417ba73-0257-4ad2-9446-720597bffd69",
+   "kind": "quote",
+   "status": "review",
+   "title": "The strange thing is that I felt calm, because there was nothing left to protect.",
+   "spec": {
+    "t0": 19.65,
+    "t1": 24.11,
+    "text": "The strange thing is that I felt calm, because there was nothing left to protect.",
+    "speaker": "B",
+    "end_word": 70,
+    "start_word": 56
+   },
+   "position": 1,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.294951+00:00",
+   "unverified": 0
+  },
+  {
+   "id": "af3c166f-cdd4-4548-ba27-36564767c1c0",
+   "kind": "show_notes",
+   "status": "review",
+   "title": "Show notes",
+   "spec": {
+    "links": [
+     "The bakery on Mill Lane"
+    ],
+    "locked": false,
+    "summary": "A bakery owner describes rebuilding after a fire, and what the first week taught them about customers. It is a practical account of deciding what to keep.",
+    "chapters": [
+     {
+      "t": 0.0,
+      "title": "Welcome back to the"
+     },
+     {
+      "t": 24.6,
+      "title": "What did you do"
+     },
+     {
+      "t": 48.0,
+      "title": "How did you keep"
+     },
+     {
+      "t": 72.3,
+      "title": "Decide what you are"
+     }
+    ],
+    "unverified": [],
+    "description": "How a bakery came back from a fire by calling every customer first."
+   },
+   "position": 0,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.292392+00:00",
+   "unverified": 0
+  },
+  {
+   "id": "fa9009ef-7c5e-43fd-a00e-e72d77cbb260",
+   "kind": "x_post",
+   "status": "review",
+   "title": "Speaker A: “So take me back to the morning it happened.”",
+   "spec": {
+    "angle": "Angle 1",
+    "limit": 280,
+    "source": {
+     "t0": 6.6,
+     "t1": 9.26,
+     "end_word": 25,
+     "start_word": 17
+    },
+    "platform": "x",
+    "variants": [
+     {
+      "text": "Speaker A: “So take me back to the morning it happened.”",
+      "locked": false,
+      "unverified": []
+     },
+     {
+      "text": "Speaker A explains why it matters: so take me back to the morning it happened.",
+      "locked": false,
+      "unverified": []
+     }
+    ]
+   },
+   "position": 0,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.291732+00:00",
+   "unverified": 0
+  },
+  {
+   "id": "36f3335c-933c-4776-a490-43d58aab5f30",
+   "kind": "x_post",
+   "status": "review",
+   "title": "Speaker A: “Most owners would have gone straight to the insurer.”",
+   "spec": {
+    "angle": "Angle 2",
+    "limit": 280,
+    "source": {
+     "t0": 39.9,
+     "t1": 42.56,
+     "end_word": 124,
+     "start_word": 116
+    },
+    "platform": "x",
+    "variants": [
+     {
+      "text": "Speaker A: “Most owners would have gone straight to the insurer.”",
+      "locked": false,
+      "unverified": []
+     },
+     {
+      "text": "Speaker A explains why it matters: most owners would have gone straight to the insurer.",
+      "locked": false,
+      "unverified": []
+     }
+    ]
+   },
+   "position": 1,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.294364+00:00",
+   "unverified": 0
+  },
+  {
+   "id": "34325e9f-3de4-4933-bad7-9fd8d71f2369",
+   "kind": "x_thread",
+   "status": "review",
+   "title": "1/ So take me back to the morning it happened.",
+   "spec": {
+    "limit": 280,
+    "source": {
+     "t0": 6.6,
+     "t1": 59.66,
+     "end_word": 175,
+     "start_word": 17
+    },
+    "platform": "x",
+    "variants": [
+     {
+      "text": "1/ So take me back to the morning it happened.\n\n———\n\n2/ The strange thing is that I felt calm, because there was nothing left to protect.\n\n———\n\n3/ Forty one calls, and thirty eight of them said they would wait for us.\n\n———\n\n4/ The insurer could wait a day, but a customer who hears nothing starts looking elsewhere.\n\n———\n\n5/ We paid them in bread, which is the best deal I have ever made.",
+      "posts": [
+       "1/ So take me back to the morning it happened.",
+       "2/ The strange thing is that I felt calm, because there was nothing left to protect.",
+       "3/ Forty one calls, and thirty eight of them said they would wait for us.",
+       "4/ The insurer could wait a day, but a customer who hears nothing starts looking elsewhere.",
+       "5/ We paid them in bread, which is the best deal I have ever made."
+      ],
+      "locked": false,
+      "unverified": []
+     },
+     {
+      "text": "1/ In short: So take me back to the morning it happened.\n\n———\n\n2/ In short: The strange thing is that I felt calm, because there was nothing left to protect.\n\n———\n\n3/ In short: Forty one calls, and thirty eight of them said they would wait for us.\n\n———\n\n4/ In short: The insurer could wait a day, but a customer who hears nothing starts looking elsewhere.\n\n———\n\n5/ In short: We paid them in bread, which is the best deal I have ever made.",
+      "posts": [
+       "1/ In short: So take me back to the morning it happened.",
+       "2/ In short: The strange thing is that I felt calm, because there was nothing left to protect.",
+       "3/ In short: Forty one calls, and thirty eight of them said they would wait for us.",
+       "4/ In short: The insurer could wait a day, but a customer who hears nothing starts looking elsewhere.",
+       "5/ In short: We paid them in bread, which is the best deal I have ever made."
+      ],
+      "locked": false,
+      "unverified": []
+     }
+    ]
+   },
+   "position": 2,
+   "version": 1,
+   "updated_at": "2026-11-18T11:05:34.296282+00:00",
+   "unverified": 0
+  }
+ ]
+}

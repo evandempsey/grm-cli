@@ -1,0 +1,182 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "id": "308afdb4-2d6b-4378-9996-7f75f769a1cf",
+  "brand_id": "c41d00ca-eb04-4100-b00e-936602891b81",
+  "brand_name": "The Shop Floor",
+  "brand_code": "shopfloor",
+  "title": "Rebuilding after the fire",
+  "external_ref": "drive:1AbC",
+  "job": "fa2235e1-272b-46d0-a4b4-7a055214c083",
+  "guests": [],
+  "links": [],
+  "status": "review",
+  "error": null,
+  "source": {
+   "name": "episode.mp4",
+   "bytes": 1232919,
+   "url": null,
+   "deleted": false
+  },
+  "media": {
+   "duration": 80.0,
+   "width": 640,
+   "height": 360,
+   "fps": 30.0,
+   "has_video": true,
+   "loudness_lufs": -22.0,
+   "audio_channels": 1,
+   "sample_rate": 48000
+  },
+  "auto_start": true,
+  "make": "clips",
+  "make_limits": {
+   "one_under": 40,
+   "one_max": 100
+  },
+  "speakers": {
+   "A": {
+    "name": "",
+    "role": "",
+    "seconds": 21.9,
+    "sample": [
+     0.6,
+     8.6
+    ]
+   },
+   "B": {
+    "name": "",
+    "role": "",
+    "seconds": 49.0,
+    "sample": [
+     9.75,
+     17.75
+    ]
+   }
+  },
+  "urls": {
+   "proxy": "http://localhost:8140/media/.eJwFwW0OwiAMANC79LcVtpaP7jYF1sQ4NyIxahbv7nsn3GGB93DNZ_IhVCRRRVarKIUVydQXi21SJrf22zjaOhz5rNYK49xiQaaUUUQiJkvBUhSdqrn-PD7f66MzXGCHZX9t2-8PEOEg0g.av2Ggw.k75NEd8Nj9vGSp_5YEDGL2hWyXc",
+   "audio": "http://localhost:8140/media/.eJwFwUkOgzAMAMC_-IxJqJ3F_MaJsYRKoVKEeqj698584QkrfEawWCmm1JFEFVm9ozRWJNfYPNuiTGF77-OybQSKVd0a48NyQ6ZSUUQyFi_JSxZduge9bb_mFytMcMJ63sfx-wMMmSCT.av2Ggw.n-3zoSAqGeUJULUq9Pb9mWBCTRs",
+   "poster": "http://localhost:8140/media/.eJwFwUkOwjAMAMC_-IxJirO5v3HiGAFVGxEQB8TfmfnCA1b4TKe-kI-xIbEIBrGGXIMgmfhqSRcJ5Pq4zUP7dOSLmNaAF00VA-WCzJwwW46WE8vSzI1jvvrzfB9XOMEO6_7ett8fNNAhXQ.av2Ggw.GHjYF-ujMFBOErpxvn_G5AYVQRg",
+   "precheck_audio": "http://localhost:8140/media/.eJwFwUkOwjAMAMC_-IxJip3F_Y2zWKCWUhFVHFD_3pk_LDDDb7jmM_kQKpKoIqtVlMKKZOqLxTYpk-v7a3xaH458VmuF8dFiQaaUUUQiJkvBUhSdqrn92-uz1-X-ZoUbbDBvx7qeF3T4IcY.av2Ggw.-TbSEyj4bIKyBWzUml9DAcbmO-Y"
+  },
+  "has_framing": true,
+  "cleanup": {
+   "mode": "auto",
+   "measured": {
+    "gap": 0.0,
+    "hiss": -24.1,
+    "lufs": -22.0,
+    "speech": -24.1,
+    "duration": 80.0,
+    "hiss_from": "gaps"
+   },
+   "applied": {
+    "gain": 4.0,
+    "hiss": -20.1,
+    "kept": "not_hiss",
+    "lufs": -18.0,
+    "mode": "auto",
+    "expand": 0.0,
+    "hiss_down": 0.0,
+    "reduction": 0.0,
+    "threshold": null
+   },
+   "version": "8d8727c1f7",
+   "status": "done"
+  },
+  "edited_in": {
+   "text": 16,
+   "transitions": 0
+  },
+  "ideas": [
+   {
+    "title": "Deciding what to keep",
+    "form": "framework",
+    "t0": 9.75
+   },
+   {
+    "title": "Ask for help in week one",
+    "form": "story",
+    "t0": 24.6
+   },
+   {
+    "title": "A short menu is a promise",
+    "form": "contrarian",
+    "t0": 35.55
+   }
+  ],
+  "stages": [
+   {
+    "name": "ingest",
+    "title": "Preparing the file",
+    "status": "done",
+    "progress": 1.0,
+    "detail": "Sound taken out and its levels measured.",
+    "error": null,
+    "seconds": 0.2,
+    "remaining_seconds": null
+   },
+   {
+    "name": "preview",
+    "title": "Making the preview copy",
+    "status": "done",
+    "progress": 1.0,
+    "detail": "Preview copy made.",
+    "error": null,
+    "seconds": 0.1,
+    "remaining_seconds": null
+   },
+   {
+    "name": "transcribe",
+    "title": "Transcribing",
+    "status": "done",
+    "progress": 1.0,
+    "detail": "224 words from 2 speakers.",
+    "error": null,
+    "seconds": 0.2,
+    "remaining_seconds": null
+   },
+   {
+    "name": "moments",
+    "title": "Finding moments",
+    "status": "done",
+    "progress": 1.0,
+    "detail": "3 clips found.",
+    "error": null,
+    "seconds": 4.6,
+    "remaining_seconds": null
+   },
+   {
+    "name": "write",
+    "title": "Writing posts, notes and slides",
+    "status": "done",
+    "progress": 1.0,
+    "detail": "8 posts, quotes, notes and decks drafted.",
+    "error": null,
+    "seconds": 4.7,
+    "remaining_seconds": null
+   },
+   {
+    "name": "frame",
+    "title": "Framing the speakers",
+    "status": "done",
+    "progress": 1.0,
+    "detail": "No faces found, so clips use the full frame.",
+    "error": null,
+    "seconds": 1.2,
+    "remaining_seconds": null
+   }
+  ],
+  "counts": {
+   "review": 11,
+   "approved": 0,
+   "rejected": 0,
+   "total": 11
+  },
+  "created_at": "2026-11-18T11:05:33.528734+00:00",
+  "ready_at": "2026-11-18T11:05:38.954588+00:00",
+  "exported_at": null
+ }
+}

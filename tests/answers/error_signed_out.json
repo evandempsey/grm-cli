@@ -1,0 +1,8 @@
+{
+ "status": 401,
+ "body": {
+  "code": "signed_out",
+  "title": "This token isn't valid",
+  "fix": "Make a new one in Settings, API tokens, and sign in with it again."
+ }
+}

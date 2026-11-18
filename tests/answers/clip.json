@@ -1,0 +1,222 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "id": "379b7040-a3e0-4879-adb8-4b9938145876",
+  "kind": "clip",
+  "status": "review",
+  "title": "We paid them in bread, which",
+  "spec": {
+   "lay": {},
+   "pad": {
+    "in": 0.0,
+    "out": 0.1
+   },
+   "copy": {
+    "x": {
+     "limit": 280,
+     "variants": [
+      {
+       "text": "We paid them in bread, which.\n\nFrom the latest video.",
+       "locked": false,
+       "unverified": []
+      },
+      {
+       "text": "One baker's rule: we paid them in bread, which.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "tiktok": {
+     "limit": 2200,
+     "variants": [
+      {
+       "text": "We paid them in bread, which. A bakery owner on starting again.",
+       "locked": false,
+       "unverified": []
+      },
+      {
+       "text": "What a fire taught one baker: we paid them in bread, which.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "linkedin": {
+     "limit": 3000,
+     "variants": [
+      {
+       "text": "We paid them in bread, which.\n\nA short clip from a conversation about rebuilding a business after a fire.",
+       "locked": false,
+       "unverified": []
+      },
+      {
+       "text": "We paid them in bread, which. Worth two minutes of your day.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "shorts_title": {
+     "limit": 100,
+     "variants": [
+      {
+       "text": "We paid them in bread, which",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    },
+    "shorts_description": {
+     "limit": 5000,
+     "variants": [
+      {
+       "text": "We paid them in bread, which. From the latest video.",
+       "locked": false,
+       "unverified": []
+      }
+     ]
+    }
+   },
+   "hook": "We paid them in bread, which",
+   "music": {
+    "on": true,
+    "track": {
+     "id": "sawdust",
+     "source": "library"
+    },
+    "suggested": {
+     "at": "2026-11-18T11:05:38+00:00",
+     "bpm": [
+      84,
+      108
+     ],
+     "why": "A story with a turn in it: the music carries the turn.",
+     "want": true,
+     "brief": "Warm acoustic instrumental, fingerpicked guitar playing a rising four-note figure, brushed drums joining halfway, lifting on the last line. Quietly proud. 96 BPM, no vocals.",
+     "other": "Hopeful piano instrumental, a simple major-key motif over soft strings that swell in the last ten seconds. Open, certain. 84 BPM, no vocals.",
+     "picks": [
+      {
+       "id": "sawdust",
+       "source": "library"
+      },
+      {
+       "id": "felt",
+       "source": "library"
+      },
+      {
+       "id": "brushwork",
+       "source": "library"
+      },
+      {
+       "id": "workbench",
+       "source": "library"
+      }
+     ],
+     "prompt": 5,
+     "search": "warm acoustic guitar, quietly proud",
+     "feeling": "Opens unsure and ends certain, turning on the last line."
+    }
+   },
+   "captions": null,
+   "emphasis": [
+    185,
+    197,
+    202,
+    207
+   ],
+   "cold_open": true,
+   "copy_ready": true
+  },
+  "position": 0,
+  "version": 1,
+  "updated_at": "2026-11-18T11:05:38.918522+00:00",
+  "unverified": 0,
+  "moment": {
+   "id": "1020b749-4196-479b-a78c-c1e96ec4a801",
+   "start_word": 148,
+   "end_word": 211,
+   "t0": 50.85,
+   "t1": 71.81,
+   "score": 87,
+   "scores": {
+    "payoff": 85,
+    "novelty": 80,
+    "stands_alone": 88,
+    "hook_strength": 92
+   },
+   "topic": "remarkable setback",
+   "reason": "Kept the setup and the payoff, cut what came between.",
+   "source": "detect",
+   "query": null,
+   "idea": "What would you tell someone who is facing a setback like that right now",
+   "emotion": "conviction",
+   "band": "15-30",
+   "pieces": [
+    [
+     148,
+     161
+    ],
+    [
+     176,
+     211
+    ]
+   ],
+   "teaser": [
+    198,
+    211
+   ],
+   "tidy": {
+    "pace": {
+     "A": 3.158,
+     "B": 3.163
+    },
+    "candidates": [
+     {
+      "id": "p1",
+      "t0": 65.51,
+      "t1": 66.0,
+      "why": "stand-in grade",
+      "kind": "pause",
+      "after": 193,
+      "grade": "natural"
+     },
+     {
+      "id": "p2",
+      "t0": 67.16,
+      "t1": 67.65,
+      "why": "stand-in grade",
+      "kind": "pause",
+      "after": 197,
+      "grade": "keep"
+     },
+     {
+      "id": "c1",
+      "w0": 208,
+      "w1": 208,
+      "why": "stand-in grade",
+      "kind": "soft",
+      "grade": "keep"
+     }
+    ]
+   },
+   "rank": 1
+  },
+  "seconds": 19.9,
+  "old_text": [
+   [
+    2.85,
+    3.85
+   ],
+   [
+    11.67,
+    12.67
+   ],
+   [
+    18.51,
+    19.51
+   ]
+  ]
+ }
+}

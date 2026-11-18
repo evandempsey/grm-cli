@@ -1,0 +1,8 @@
+{
+ "status": 403,
+ "body": {
+  "code": "scope_missing",
+  "title": "This token isn't allowed to approve clips",
+  "fix": "Make a token with “approve” ticked in Settings, API tokens."
+ }
+}

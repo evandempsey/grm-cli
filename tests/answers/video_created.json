@@ -1,0 +1,60 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "id": "308afdb4-2d6b-4378-9996-7f75f769a1cf",
+  "brand_id": "c41d00ca-eb04-4100-b00e-936602891b81",
+  "brand_name": "The Shop Floor",
+  "brand_code": "shopfloor",
+  "title": "Rebuilding after the fire",
+  "external_ref": "drive:1AbC",
+  "job": "d388f437-410a-4ad7-88c3-67af4bd440e2",
+  "guests": [],
+  "links": [],
+  "status": "uploading",
+  "error": null,
+  "source": {
+   "name": "episode.mp4",
+   "bytes": 1232919,
+   "url": null,
+   "deleted": false
+  },
+  "media": {
+   "duration": null,
+   "width": null,
+   "height": null,
+   "fps": null,
+   "has_video": null,
+   "loudness_lufs": null,
+   "audio_channels": null,
+   "sample_rate": null
+  },
+  "auto_start": false,
+  "make": null,
+  "make_limits": {
+   "one_under": 40,
+   "one_max": 100
+  },
+  "speakers": {},
+  "urls": {
+   "proxy": null,
+   "audio": null,
+   "poster": null,
+   "precheck_audio": null
+  },
+  "has_framing": false,
+  "cleanup": null,
+  "edited_in": null,
+  "ideas": [],
+  "stages": [],
+  "counts": {
+   "review": 0,
+   "approved": 0,
+   "rejected": 0,
+   "total": 0
+  },
+  "created_at": "2026-11-18T11:05:33.528734+00:00",
+  "ready_at": null,
+  "exported_at": null
+ }
+}

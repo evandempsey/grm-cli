@@ -1,0 +1,445 @@
+{
+ "status": 200,
+ "retry_after": null,
+ "body": {
+  "prefix": "shopfloor_20261118-1105",
+  "assets": [
+   {
+    "id": "379b7040-a3e0-4879-adb8-4b9938145876",
+    "kind": "clip",
+    "status": "approved",
+    "title": "We paid them in bread, which",
+    "label": "Clip 1",
+    "export": {
+     "id": "4b40ad6e-a796-41de-a259-2dbc054c4226",
+     "status": "done",
+     "job": "efcd08f4-e3da-4154-8944-41ec4add4df2",
+     "qa": [
+      {
+       "ok": true,
+       "key": "names",
+       "title": "Names are spelled right",
+       "words": [],
+       "detail": "No names are on file for this video, so there was nothing to compare.",
+       "asset_id": null
+      },
+      {
+       "ok": true,
+       "key": "lengths",
+       "title": "Lengths fit each platform",
+       "detail": "The clip is within every platform's limit. The longest is 0:19."
+      },
+      {
+       "ok": true,
+       "key": "loudness",
+       "title": "Loudness is in range",
+       "detail": "The source measures -18.0 LUFS. Every file is brought to -14 LUFS as it renders, then measured again."
+      },
+      {
+       "ok": true,
+       "key": "safe_zones",
+       "title": "Captions are inside safe zones",
+       "detail": "Checked for TikTok, Reels and Shorts."
+      }
+     ],
+     "current": true,
+     "ready": true,
+     "again": null,
+     "created_at": "2026-11-18T11:05:39.729280+00:00",
+     "finished_at": "2026-11-18T11:05:40.090695+00:00",
+     "renders": [
+      {
+       "id": "0fa709d2-a5f6-4237-8b1c-bb81d0d367f9",
+       "kind": "video",
+       "aspect": "9:16",
+       "folder": "TikTok",
+       "filename": "shopfloor_20261118-1105_clip01_9x16.mp4",
+       "label": "Clip 1",
+       "status": "done",
+       "progress": 1.0,
+       "job": "d95050fd-3fdf-4737-a688-ec8c43557899",
+       "size_bytes": 1316779,
+       "info": {
+        "fps": 30.0,
+        "lufs": -14.0,
+        "music": {
+         "id": "sawdust",
+         "source": "library"
+        },
+        "sound": "8d8727c1f7",
+        "width": 1080,
+        "height": 1920,
+        "duration": 19.904,
+        "source_lufs": -14.06
+       },
+       "error": null,
+       "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+       "stale": false,
+       "old_sound": false,
+       "url": "http://localhost:8140/media/.eJwNxkEOgyAQAMC_cO6WXVio-A7vZgFJjVaItqlJ07-3c5qPWlSv3ofO2Fl0LoENIsBSEoTIArYIxuIzCVs9na3uz0NzZJTsJ5Bb8MCU_zMugMkxoePExng9zMtQF33caytrrfto0Hgi6oAI3ZjWuSGN4SR_fTRWF7Wpfnut6_cHd5ErdQ.av2GhQ.6UmrZHX4CtZtPb4w915wdtGRrU8",
+       "download_url": "http://localhost:8140/media/.eJyNzkEOwiAQQNG7sHZkBgYsPUf3zQAlNq1CWhObGO9uj-DuL97if9SievXedcbOonMJbBABlpIgRBawRTAWn0nY6ulodXvtmiOjZD-B3IIHpnyWcQFMjgkdJzbG62Fehrro_V5bWWvdRoPGE1EHROjGtM4NaQwH-eujsbqo53nyr_7-AH-tNeA.av2GhQ.tTsHOqIEyo3eO2lmJsJCulBxlp0",
+       "files": []
+      },
+      {
+       "id": "d08134cc-d856-4603-91d4-b004ca05961c",
+       "kind": "video",
+       "aspect": "1:1",
+       "folder": "Instagram",
+       "filename": "shopfloor_20261118-1105_clip01_1x1.mp4",
+       "label": "Clip 1",
+       "status": "done",
+       "progress": 1.0,
+       "job": "c13995fb-0d91-4e27-9389-9c163b70c60f",
+       "size_bytes": 1078847,
+       "info": {
+        "fps": 30.0,
+        "lufs": -14.0,
+        "music": {
+         "id": "sawdust",
+         "source": "library"
+        },
+        "sound": "8d8727c1f7",
+        "width": 1080,
+        "height": 1080,
+        "duration": 19.904,
+        "source_lufs": -14.06
+       },
+       "error": null,
+       "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+       "stale": false,
+       "old_sound": false,
+       "url": "http://localhost:8140/media/.eJwNxkEOwiAQAMC_cHaFhQVLf-ArmgWKGmkhpcYmxr_rnOYjnmIU7y6TGoyyNoLxzECcI_hADCazCtklZDJyPlrd9i4pkOLkZuCLd0CY_tPWg04hKkuRtHbyuvadbxsvst9ry6XWbdJKO0QcAFHZKZZHUzjhgeelkTiJVYzrq5TvD-V1LIc.av2GhQ.Inuj2eCmESYnb6MoDo2j4l21VZg",
+       "download_url": "http://localhost:8140/media/.eJyNzk0OwiAQQOG7sHZkBgYs3sBTNAMUNfaHlCY2Md7dHsHdW3yL91EvdVXvpjN2Fp1LYIMIsJQEIbKALYKx-EzCVg97XdataY6Mkv0AcgkemPJRxgUwOSZ0nNgYr29z2-S-yqTbY6llXJa1N2g8EXVAhK5P47Mi9bTTeaqsTmo-Xv7E3x_eiza0.av2GhQ.7Id_KlVWH8qUkjJOunvxXYZMq78",
+       "files": []
+      },
+      {
+       "id": "7adc5a12-80aa-4916-818f-d89a59bbed39",
+       "kind": "thumbnail",
+       "aspect": "9:16",
+       "folder": "TikTok",
+       "filename": "shopfloor_20261118-1105_clip01_9x16_thumbnail.jpg",
+       "label": "Clip 1 thumbnail",
+       "status": "done",
+       "progress": 1.0,
+       "job": "fcb320d3-c273-44a3-b9b4-9eb100e03e3e",
+       "size_bytes": 34404,
+       "info": {
+        "t": 60.633,
+        "width": 1080,
+        "height": 1920
+       },
+       "error": null,
+       "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+       "stale": false,
+       "old_sound": false,
+       "url": "http://localhost:8140/media/.eJwNxksOwiAQANC7sHaE4af0HN2TAYqtxUL6iU2Md9e3eh82s469N57EXQljIihHBJpyBBc0gcokQrYJSSs-nK2u-8Z10IKSHYBuzoLG9J80DmQKURgdtZSW99Pc15lvY2251Lp6KaRFxDsgCuNjmZpA7060fh-PV1hoKtdne7ALW1i3HKV8f1JsL8g.av2GhQ.pilmP3ggKAD2ZW6Wq_hgqlTmanw",
+       "download_url": "http://localhost:8140/media/.eJyVzk0OgjAQQOG7dO3Ymf5pPQf7ZtqCIEgbwEhivLtcwd3bfMn7iFHcxHuVGa8arU2gPTMY7hL4aBh0xxg7l4mNlu1ey7Kt0kSDnF0LfPEODOWjlPWgckxoTTJKOdkMY1NGufaldlMpS1CoHBFdgQhtSNNQkYLfyYWtfz3jzMN0ftS7OIn5ePrffX9eMD6G.av2GhQ.U5OvMOPnHLiM6QKVn7Yyvp1a0dI",
+       "files": []
+      },
+      {
+       "id": "ad651ea2-3cbb-4def-8960-3728f4cd2345",
+       "kind": "thumbnail",
+       "aspect": "1:1",
+       "folder": "Instagram",
+       "filename": "shopfloor_20261118-1105_clip01_1x1_thumbnail.jpg",
+       "label": "Clip 1 thumbnail, 1:1",
+       "status": "done",
+       "progress": 1.0,
+       "job": "ebcf5343-ae49-4e3c-a199-1ed686ba3ae3",
+       "size_bytes": 20275,
+       "info": {
+        "t": 60.633,
+        "width": 1080,
+        "height": 1080
+       },
+       "error": null,
+       "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+       "stale": false,
+       "old_sound": false,
+       "url": "http://localhost:8140/media/.eJwNxksOwiAUAMC7sBbh8bP0Bp6CPKC0VQRS2tjEeHed1XzIk4zk3Vnkg-RaByotIlWYArVeIZUJuU8mAirJprPVbe9MecUxmonizRqqIP4ntKUi-sC1CkoIw-6l7zhv-GJ9qS3lWjcnuDAAMFAArl3Ia-Pg4AS3L8fLF1zz9dFmciGFjOXI-fsDywQw2g.av2GhQ.OktmQ0hkFHiCCaEfFvvJb-vxCck",
+       "download_url": "http://localhost:8140/media/.eJyVzk0OwiAQQOG7sBaZ4c_iDTwFGaC01VpIqbGJ8e72Cu7e5kvehz3Ylb2bSNApMCZy5Yi4phy5C5q4ygQh24Sklej3WtatCR00ULI9p4uzXGM6ShrHZQoRjI5aSituS9toWOkp2lhqnktZvQRpEbHjiGB8nKcK6HFHv42vZ1homs_3OrATW46rv9n3B8u3P1o.av2GhQ.5FAyaifKTUhQ7FmrLS3zYH8hrzM",
+       "files": []
+      },
+      {
+       "id": "bb8d81ee-bfb6-4430-a676-faac2e96c1cc",
+       "kind": "captions",
+       "aspect": null,
+       "folder": "Captions",
+       "filename": "shopfloor_20261118-1105_clip01_captions",
+       "label": "Clip 1 captions",
+       "status": "done",
+       "progress": 1.0,
+       "job": "8aa22013-d9eb-428d-b64c-769e91237962",
+       "size_bytes": 1274,
+       "info": {},
+       "error": null,
+       "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+       "stale": false,
+       "old_sound": false,
+       "url": null,
+       "download_url": null,
+       "files": [
+        {
+         "name": "shopfloor_20261118-1105_clip01.srt",
+         "bytes": 642,
+         "url": "http://localhost:8140/media/.eJwNxkEOwiAQAMC_cHZlFxaUXn1Is0CJjaSQUqOJ8e86p_moh5rUa-iMV4vOJbBBBFhKghBZwBbBWHwmYauXd2_7MTRHRsl-AbkED0z5P-MCmBwTOk5sjNc36cfatqHHvfVSW9tng8YT0RWI0M2prh3pPPZDndSmpu1Z6_cHCSUrMQ.av2GhQ.yEnFLj70VdSmWN8qBfzejhEk4Fw",
+         "download_url": "http://localhost:8140/media/.eJyNzkEOwiAQQNG7sHZkBgYs3XqQZoASG5tCShNNjHe3R3D3F2_xP-qpRvXqOuNg0bkENogAS0kQIgvYIhiLzyRs9fxudT-65sgo2c8gt-CBKZ9lXACTY0LHiY3x-i7tWOrWdX_UVtZa98mg8UQ0ABG6Ka1LQ7r2_VAXtZ0bf8DvD_9JNG0.av2GhQ.6xKYdqBIWRSvAq5XqPmVrR_l5BE"
+        },
+        {
+         "name": "shopfloor_20261118-1105_clip01.vtt",
+         "bytes": 632,
+         "url": "http://localhost:8140/media/.eJwNxksOwiAQANC7sHZkgAFLtx6kGaDERlJIwU9ivLu-1fuIu5jFq8uEk0FrIxjPDMQ5gg_EYDJjyC4pJiPXd6vH6JICISe3Al-8A1LpP2096BQiWoqktZNXbmOre5f9VlsutR6LRu2UUhMohXaJZWuozs8xxEnsYt4fpXx_CWkrNg.av2GhQ.5cFQAtprjBpFR2DPi6zu8etKWVg",
+         "download_url": "http://localhost:8140/media/.eJyNzkEOwiAQQNG7sHZkBgZs3XqQZoASG5tCClET493tEdz9xVv8j3qoq3o1nXCw6FwEO4oAS44wBhawWTBkn0jY6vldy96b5sAoyc8gl9EDUzrKuBFMChEdRzbG65vUvpSt6XYvNa-l7JNB44loACJ0U1yXinR-9q5Oajs2_oDfHwBTNHc.av2GhQ.vFM5HgwFS7NwLZ6zubqyS3peT1E"
+        }
+       ]
+      }
+     ],
+     "progress": 1.0
+    }
+   }
+  ],
+  "to_review": 10,
+  "approved": 1,
+  "pack": {
+   "id": "bb2a1c73-dac5-47e1-a6c8-141b249fe89a",
+   "status": "done",
+   "job": "707531b6-b057-406b-958a-94394a96f79d",
+   "qa": [
+    {
+     "ok": true,
+     "key": "names",
+     "title": "Names are spelled right",
+     "words": [],
+     "detail": "No names are on file for this video, so there was nothing to compare.",
+     "asset_id": null
+    },
+    {
+     "ok": true,
+     "key": "lengths",
+     "title": "Lengths fit each platform",
+     "detail": "The clip is within every platform's limit. The longest is 0:19."
+    },
+    {
+     "ok": true,
+     "key": "loudness",
+     "title": "Loudness is in range",
+     "detail": "All 2 audio and video files are within 1 LU of -14 LUFS."
+    },
+    {
+     "ok": true,
+     "key": "safe_zones",
+     "title": "Captions are inside safe zones",
+     "detail": "Checked for TikTok, Reels and Shorts."
+    },
+    {
+     "ok": true,
+     "key": "quotes",
+     "title": "Every quote is in the transcript",
+     "detail": "0 quotes checked word for word.",
+     "asset_id": null
+    }
+   ],
+   "created_at": "2026-11-18T11:05:39.771580+00:00",
+   "finished_at": "2026-11-18T11:05:40.218467+00:00",
+   "renders": [
+    {
+     "id": "6960285f-6be8-44f5-86d3-216423462c63",
+     "kind": "video",
+     "aspect": "9:16",
+     "folder": "TikTok",
+     "filename": "shopfloor_20261118-1105_clip01_9x16.mp4",
+     "label": "Clip 1",
+     "status": "done",
+     "progress": 1.0,
+     "job": "2cc93cd3-eabc-4094-905c-d832275c4b48",
+     "size_bytes": 1316779,
+     "info": {
+      "fps": 30.0,
+      "lufs": -14.0,
+      "music": {
+       "id": "sawdust",
+       "source": "library"
+      },
+      "sound": "8d8727c1f7",
+      "width": 1080,
+      "height": 1920,
+      "duration": 19.904,
+      "source_lufs": -14.06
+     },
+     "error": null,
+     "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+     "stale": false,
+     "old_sound": false,
+     "url": "http://localhost:8140/media/.eJwNykEOgyAQAMC_cO4WFhYU3-HdLCipkQoRm5o0_Xs75_mITQzi3eSseqOsjWA8MxCnCD4Qg0msQnIzMhm5XLUcZ5MhaMbYGZg5WqBuQWAXe0DCoMmnpfcsx3Ubyybbo9SUSzkmrbRDxH9DZaeY16pw8he6-7OSuIldDPsr5-8PlHor2Q.av2GhQ.Wb265opVYK40wo_QvwTbJkYyfv4",
+     "download_url": "http://localhost:8140/media/.eJyNzksOwiAQANC7sHaEgYEWz9F9M_xi0yqkmNjEeHd7BPdv8T5iFTfx7jKp0ShrIxjPDMQlgg_EYAqrUFxCJiPz0er-6jIEzRgHA4mjBRoyArs4AhIGTb7k0bOclnWqq-z32spW6z5rpR0ingyVneO2NIWzP9BdH43ERTzPyb_6-wOrCjZE.av2GhQ.l_XE1uhFhbRC9gsp9blM2_LJhx0",
+     "files": []
+    },
+    {
+     "id": "3c4e4537-5b06-4c92-84b1-f385dc69d858",
+     "kind": "video",
+     "aspect": "1:1",
+     "folder": "Instagram",
+     "filename": "shopfloor_20261118-1105_clip01_1x1.mp4",
+     "label": "Clip 1",
+     "status": "done",
+     "progress": 1.0,
+     "job": "30efd517-9986-4805-95ad-98d86981cd1f",
+     "size_bytes": 1078847,
+     "info": {
+      "fps": 30.0,
+      "lufs": -14.0,
+      "music": {
+       "id": "sawdust",
+       "source": "library"
+      },
+      "sound": "8d8727c1f7",
+      "width": 1080,
+      "height": 1080,
+      "duration": 19.904,
+      "source_lufs": -14.06
+     },
+     "error": null,
+     "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+     "stale": false,
+     "old_sound": false,
+     "url": "http://localhost:8140/media/.eJwNylESgiAQANC78N0GC4uKN_AUzoJSTSgM2ORM093rfb-PeIpRvJtc1GCUtQGMYwbiGMB5YjCRlY_dgkxGrmfJ9WjSe80YegMLBwvUrwjchQGQ0GtycR0cy2lvB98qb7Ldc4kp5zprpTtE_E9Udg7pURTOeOJ1KyQuYhfj_krp-wMDNSzr.av2GhQ.Qa_q2sE_Kl7eE-DzCQ4xMfUg6z8",
+     "download_url": "http://localhost:8140/media/.eJyNzksOgjAQANC7dO3YTjsFyg08BZn-1Ai0oSSSGO8uR3D_Fu8jXmIU7yajGoyyNoBxzECcAzhPDCaz8rmLyGRkOmrZ9ia914yhNxA5WKA-IXAXBkBCr8nlNDiWt7XtfN94ke1Rap5L2SatdIeIp0RlpzA_q8IJD7wulcRFrOflT_z9AQpbNxg.av2GhQ.qRHOG0aO3_-RT6qNy5dScUDbuS0",
+     "files": []
+    },
+    {
+     "id": "2666b66a-928a-4ffb-8075-72075818f9e4",
+     "kind": "thumbnail",
+     "aspect": "9:16",
+     "folder": "TikTok",
+     "filename": "shopfloor_20261118-1105_clip01_9x16_thumbnail.jpg",
+     "label": "Clip 1 thumbnail",
+     "status": "done",
+     "progress": 1.0,
+     "job": "bf7fdc00-b4b0-457e-8f4a-84cb64f1729b",
+     "size_bytes": 34404,
+     "info": {
+      "t": 60.633,
+      "width": 1080,
+      "height": 1920
+     },
+     "error": null,
+     "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+     "stale": false,
+     "old_sound": false,
+     "url": "http://localhost:8140/media/.eJwNyksOgyAQANC7sO4Uhp_iOdyTAaVaqRA_qUnTu7dv_T5sYR1773wQrRLGRFCOCDSlCC5oApVIhGQHJK34eNWyHTsPQRLGRsFA0YBuRgSysQXUGKR2aWwd8X5e-rLwfSo15VI2L4W0iPhvKIyPea4CvbvQ-mM6X2GlOd-f9cFubGXdeub8_QFzPTAs.av2GhQ.XdPD5FGcvPlIfBxIV8-KraztBv8",
+     "download_url": "http://localhost:8140/media/.eJyVzk0OgjAQQOG7dO3YTv-gnoN9My1UEKQNxUhivLtcwf37kvdhM7uxd-W9aJUwJoJyRKApRXBBE6hEIiTbI2nFh6Pkba88BEkYGwU9RQO6GRDIxhZQY5DapaF1xLtp7vLM65hLWnLevBTSIuKZoTA-LlMR6N2B1u_j6xlWmpbro9zZha3n0__u-wORXT7q.av2GhQ.krl6sMzemQO4iUHg7aUE9uBLeL0",
+     "files": []
+    },
+    {
+     "id": "ddea8600-341f-412d-8b9f-74fdecc4a1fc",
+     "kind": "thumbnail",
+     "aspect": "1:1",
+     "folder": "Instagram",
+     "filename": "shopfloor_20261118-1105_clip01_1x1_thumbnail.jpg",
+     "label": "Clip 1 thumbnail, 1:1",
+     "status": "done",
+     "progress": 1.0,
+     "job": "44c3bb7f-c6a1-44d8-884c-160c4fc174e0",
+     "size_bytes": 20275,
+     "info": {
+      "t": 60.633,
+      "width": 1080,
+      "height": 1080
+     },
+     "error": null,
+     "asset_id": "379b7040-a3e0-4879-adb8-4b9938145876",
+     "stale": false,
+     "old_sound": false,
+     "url": "http://localhost:8140/media/.eJwNyksOgyAQANC7sO4Uho-_G_QUZEBRWwQimpo0vXv71u_DXmxg78pH0SlhjAfVE4Gm4KF3mkAFEi40I5JWfLpK3o_KnZOEvlUwkjeg2wmBGt8BanRS92HqeuKPVA-ad9p4XXIJMefdSiEbRPxPFMb6uBaBFi-0x3JuLtEa788ysxtLbEhnjN8f7J0xPg.av2GhQ.7-OnUTK9ZvNeP7mvMJ1SHPO5-sI",
+     "download_url": "http://localhost:8140/media/.eJyVzlsOgyAQQNG98N0pDA-V7qCrIAOK2ioQsalJ073XLfT_nuR-2JPd2LvyXnRKGBNAWSLQFANYrwlUJOFj0yNpxYej5G2v3HtJGFoFPQUDuh0QqAkdoEYvtY1DZ4nfU91p3GjldcolLjlvTgrZIOJZojAuLHMR6PBAt0-v1Seal-ujjOzC0nn1N_v-AP9IP74.av2GhQ.BpBjkqkqhoC5EpNUEoDsWOLouFE",
+     "files": []
+    },
+    {
+     "id": "01150397-a02f-4806-a287-cb0cf158e5a8",
+     "kind": "captions",
+     "aspect": null,
+     "folder": "Captions",
+     "filename": "shopfloor_20261118-1105_captions",
+     "label": "Caption files",
+     "status": "done",
+     "progress": 1.0,
+     "job": "1cf44260-4b96-46ee-8be9-78b0ed001d38",
+     "size_bytes": 5638,
+     "info": {},
+     "error": null,
+     "asset_id": null,
+     "stale": false,
+     "old_sound": false,
+     "url": null,
+     "download_url": null,
+     "files": [
+      {
+       "name": "shopfloor_20261118-1105_clip01.srt",
+       "bytes": 642,
+       "url": "http://localhost:8140/media/.eJwNyksOwiAQANC7sHaE4Vfo1oM0A4XYSIBAjSbGu-tbvw97sJW9Jt-FU8KYCMoTgaYcwQdNoDKJkO2OpBVP797GOXkIkjAuCnaKBvSSEMhGB6gxSO1zcp74jfp5tDr5vLeeS2tjk0JaRPxHFGaL5egCr3Oc7MIqW-uzlO8PJOIrlQ.av2GhQ.rKqnWXWrb5dP9X41LDpzZNkPdW0",
+       "download_url": "http://localhost:8140/media/.eJyNzksOwiAQANC7sHaE4Vdw60Ga4Rcbm0KARBPj3e0R3L_F-7Anu7HX4Ek4JYyJoDwRaCoRfNAEqpAIxSYkrXh-t9rn4CFIwrgoSBQN6CUjkI0OUGOQ2pfsPPE7tbnVY_DxqK3stfZVCmkR8YQozBr3rQm8jj7ZhR1n4w_4_QEnlTTR.av2GhQ.PWL46Jux6h4W6wqEgsCzPdHNNCk"
+      },
+      {
+       "name": "shopfloor_20261118-1105_clip01.vtt",
+       "bytes": 632,
+       "url": "http://localhost:8140/media/.eJwNyksOwiAQANC7sHaE4dfSrQdphl9sJIUUqibGu-tbvw97sIW9Oo9iVsKYAMoRgaYcwHlNoDIJn21E0oqnd6vH6Nx7SRgmBZGCAT0lBLJhBtTopXY5zY74jdrY6t55v9eWS63HKoW0iPiPKMwaytYEXp9jsAvb2bKfpXx_JSYrmg.av2GhQ.ygNgxeb-W48-wEogyyOJeBYO3oo",
+       "download_url": "http://localhost:8140/media/.eJyNzksOwiAQANC7sHaE4Vfo1oM0wy82NoUUoibGu9sjuH-L92EPNrNX50k4JYyJoDwRaCoRfNAEqpAIxSYkrXh-t3qMzkOQhHFSkCga0FNGIBsdoMYgtS_ZeeI3amOte-f9XlvZaj0WKaRFxBOiMEvc1ibw-hyDXdh-Nv6A3x8okDTb.av2GhQ.P0B69nUqxiL4VQc6lT81CeyZ-pw"
+      },
+      {
+       "name": "shopfloor_20261118-1105_full.srt",
+       "bytes": 2220,
+       "url": "http://localhost:8140/media/.eJwNyksOwiAQANC7sHaE4dfSrQdphl80EmgAo4nx7nb5kvdlT7ax9-BRrEoYE0A5ItCUAzivCVQm4bONSFrx9Dlan4N7LwnDoiBSMKCXhEA2rIAavdQup9URv9ExH60OPu7tyKW1vkshLSKeEYXZ86uU6-iTXVhlWz31-wPS6ys_.av2GhQ.3JAggREtcf0cHm8qFPzZ6G8ovSY",
+       "download_url": "http://localhost:8140/media/.eJyFzksOwiAQANC7sHaE4Vdw60Ga4ReNpDSA0cR4d3sD92_xPuzBLuw1eBJOCWMiKE8EmkoEHzSBKiRCsQlJK57fe-tz8BAkYVwUJIoG9JIRyEYHqDFI7Ut2nviV9nlv2-Dj1vZSW-urFNIi4gFRmLU8az2PPtmJbUfiL_v-AGSKNCU.av2GhQ.RDaJSv5Bk-Ubty1GUZisRtvn5xQ"
+      },
+      {
+       "name": "shopfloor_20261118-1105_full.vtt",
+       "bytes": 2144,
+       "url": "http://localhost:8140/media/.eJwNyksOwiAQANC7sHaE4dfSrQdphl80EmgKVRPj3e3yJe_Lnmxh786jmJUwJoByRKApB3BeE6hMwmcbkbTi6bO1fXTuvSQMk4JIwYCeEgLZMANq9FK7nGZH_EbbeLTaeb-3LZfW9lUKaRHxjCjMmo9Srq8x2IVVttRTvz_TLytE.av2GhQ.SKC5YhgH1MKTTE3_lAXOs9SPZlY",
+       "download_url": "http://localhost:8140/media/.eJyFzkkOwiAUANC7sPYLn6nQrQdpPlM0ktIUHBLj3e0N3L_F-7A7m9mr8yScEsZEUJ4INJUIPmgCVUiEYhOSVjy_t7aPzkOQhHFSkCga0FNGIBsdoMYgtS_ZeeIX2satrZ33a9tKbW1fpJAWEQ-IwizlUev5OQY7sfVI_GXfH2V7NC8.av2GhQ.-__GptHY9_F4qOrfIzIhVFHs5Z4"
+      }
+     ]
+    },
+    {
+     "id": "cc99f220-fc11-4b34-8f31-2b7b23af3254",
+     "kind": "copy_doc",
+     "aspect": null,
+     "folder": "",
+     "filename": "shopfloor_20261118-1105_copy.docx",
+     "label": "Copy document",
+     "status": "done",
+     "progress": 1.0,
+     "job": "e9eb66b4-6acb-426d-adbf-528f44ef3bcf",
+     "size_bytes": 36853,
+     "info": {},
+     "error": null,
+     "asset_id": null,
+     "stale": false,
+     "old_sound": false,
+     "url": "http://localhost:8140/media/.eJwNyUsOwiAQANC7sHaE4VfoZZphgJhICikaa4x317d9H3EXq3hNmVUwyjkGE4nAUmWIyRKYSipVn5GskeUc_XhMmZIm5MVAJnZgl4JAngOgxaRtrCVEkvPWR229H5tW2iPi_1G5jft4X3PnU1zELtb92dr3B2xFKCw.av2GhQ.BZAatkqqpxV1INyJ_J6XQGo6Iy4",
+     "download_url": "http://localhost:8140/media/.eJyFzVEKAiEQgOG7-Nyko6OrXWYZRyUoUtagjeju7Q16_j_4P-qmLuo1dTHRGe8FXGIG4iaQMjG4xia3UJDJ6bqPvj2nztkyyuKgsHigpSJwkAhImC2lVmNiPa99tHvv22qNDYh4dDR-lT7e59JlVyf1OOb_3fcH0vgxbw.av2GhQ.cdtmLqg-vNzuJuwsb4JaulPAQso",
+     "files": []
+    }
+   ],
+   "ready": 6,
+   "failed": 0,
+   "total": 6,
+   "bytes": 2492796,
+   "zip": {
+    "name": "shopfloor_20261118-1105.zip",
+    "bytes": 2496497,
+    "url": "http://localhost:8140/media/.eJx9zVsOAiEMQNG98G2F0sKAmzHlFY1GyDCJRuPenRX4fU9yP-qmTuo5dTGBjHMZKIoAS8sQEwtQE5OaLyhMur5GX7epU7KCeSEokh3wUhHE5wDImCzHVkMUPS99tHvv69ka6xFx72jc8X0d6qAe-_af-P4Af3gshQ.av2GhQ.q8jylu3I1bO2LCi6kelGRWjCA5M"
+   },
+   "manifest": {
+    "name": "shopfloor_20261118-1105_manifest.csv",
+    "url": "http://localhost:8140/media/.eJyNzUEOwiAQQNG7sHaEgYGWXqYZBohGLU1p1MR4d3sE1_8l_6NualKvrrMZnfFewEVmIK4CMRGDq2xSDRmZnC7vtW171ylZRhkcZBYPNBQEDjICEiZLsZYxsu6XttZ7a9tsjQ2IeHQ0fn7wcq2l72fpT3VSy_H_i35_EvAz4w.av2GhQ.sXH1Eb2ibn4saHRtpBrkxT8xaIw"
+   },
+   "tree": [
+    "Captions",
+    "Instagram",
+    "TikTok"
+   ],
+   "prefix": "shopfloor_20261118-1105",
+   "drive": null
+  }
+ }
+}
