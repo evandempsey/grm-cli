@@ -108,3 +108,7 @@ uv run ruff check src tests && uv run ruff format src tests
 - **Releasing.** Push a tag matching the version in `pyproject.toml` (`v0.1.0`): GitHub Actions tests it, builds it and
   publishes it to PyPI with trusted publishing, so no PyPI token is stored anywhere. Versions stay `0.x` until GRM's
   public API has held for a month.
+
+## Licence
+
+MIT: see [LICENSE](LICENSE).
